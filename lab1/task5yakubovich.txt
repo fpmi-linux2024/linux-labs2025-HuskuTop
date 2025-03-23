@@ -1,0 +1,36 @@
+Script started on 2025-02-16 18:18:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ help ls
+[?2004lbash: help: no help topics match `ls'.  Try `help help' or `man -k ls' or `info ls'.
+[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  [01;34msnap[0m                 [01;34mTemplates[0m           [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    task5yakubovich.txt  timelog5yakubovich
+[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ cd Videos
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Videos[01;32mubuntu@ubuntu[00m:[01;34m~/Videos[00m$ pwd
+[?2004l/home/ubuntu/Videos
+[?2004h]0;ubuntu@ubuntu: ~/Videos[01;32mubuntu@ubuntu[00m:[01;34m~/Videos[00m$ mkdir newdir
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Videos[01;32mubuntu@ubuntu[00m:[01;34m~/Videos[00m$ rmdir newdie[Kr
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Videos[01;32mubuntu@ubuntu[00m:[01;34m~/Videos[00m$ touch f1.txt[K[K[K[K[K[K[K[K[K[K[K[Kcd
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ touch f1.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ touch f2.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ cp f1.txt f2.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ mv f2.txt file [K2.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ rm file2.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ hiso[Ktory
+[?2004l    1  exit
+    2  help ls
+    3  ls
+    4  cd Videos
+    5  pwd
+    6  mkdir newdir
+    7  rmdir newdir
+    8  cd
+    9  touch f1.txt
+   10  touch f2.txt
+   11  cp f1.txt f2.txt
+   12  mv f2.txt file2.txt
+   13  rm file2.txt
+   14  history
+[?2004h]0;ubuntu@ubuntu: ~[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-16 18:22:05+00:00 [COMMAND_EXIT_CODE="0"]
