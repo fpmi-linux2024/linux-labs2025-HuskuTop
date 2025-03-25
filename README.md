@@ -9,3 +9,4 @@
 [Ссылка на отчёт]https://disk.yandex.ru/d/lRjqQ6q7_WH-vQ
 [Ссылка]https://github.com/HuskuTop/lab2-intro
 [Ссылка]https://github.com/HuskuTop/lab2--markdown-syntax
+
