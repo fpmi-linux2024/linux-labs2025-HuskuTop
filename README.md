@@ -3,5 +3,5 @@
 
 ## Лабораторная работа № 1
 
-Ссылка на отчёт:https://disk.yandex.ru/d/WuKEpZMHIoeeMQ
+[Ссылка на отчёт](https://disk.yandex.ru/d/WuKEpZMHIoeeMQ)
 
