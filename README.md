@@ -9,8 +9,8 @@
 
 [Ссылка на отчёт](https://disk.yandex.ru/d/lRjqQ6q7_WH-vQ)
 
--[lab2-intro](https://github.com/HuskuTop/lab2-intro)
--[lab2-markdown-syntax](https://github.com/HuskuTop/lab2--markdown-syntax)
+- [lab2-intro](https://github.com/HuskuTop/lab2-intro)
+- [lab2-markdown-syntax](https://github.com/HuskuTop/lab2--markdown-syntax)
 
 ## Лабораторная работа №3
 
