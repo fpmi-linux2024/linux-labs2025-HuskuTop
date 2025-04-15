@@ -1,0 +1,18 @@
+Script started on 2025-04-08 14:23:30+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exitls -ali[2Piali[3Pexit[Kexitls -ali[3Pexit[Kcd labrabota4/
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ cp request.txt workdir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ cp request.txt  workdir//[K.request
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ mv request.txt reauest[1Puestquest[C[C[C[C.bak
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ mv request.txt request.bak[C[C[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Prequest.bak[1Pequest.bak[C[C[C[C[C[C[C[C[C[C[C workdir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls -ali workdir/
+[?2004lитого 20
+1346900 drwxrwxr-x 2 huskutop huskutop 4096 апр  8 14:29 [0m[01;34m.[0m
+1346765 drwxrwxr-x 3 huskutop huskutop 4096 апр  8 14:29 [01;34m..[0m
+1346922 -rw-rw-r-- 1 huskutop huskutop  151 апр  8 14:27 .request
+1346494 -rw-rw-r-- 1 huskutop huskutop  151 апр  8 14:10 [00;90mrequest.bak[0m
+1346970 -rw-rw-r-- 1 huskutop huskutop  151 апр  8 14:26 request.txt
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-08 14:30:13+03:00 [COMMAND_EXIT_CODE="0"]

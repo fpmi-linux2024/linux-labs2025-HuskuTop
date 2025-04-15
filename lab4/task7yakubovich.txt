@@ -1,0 +1,18 @@
+Script started on 2025-04-08 18:42:31+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd labrabota4/
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls ~/ > task7.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ sudo chattr +i task7.txt
+[?2004l[sudo] пароль для huskutop: 
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ lsattr task7.txt
+[?2004l----i---------e------- task7.txt
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ sudo nano task7.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ Чтение… ](B[m[22;19H(B[0;1m[37m[41m[ Файл «task7.txt» не доступен для записи ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                        task7.txt                                 [1;79H(B[m[23d(B[0;7m^G(B[m Справка   (B[0;7m^O(B[m Записать  (B[0;7m^W(B[m Поиск     (B[0;7m^K(B[m Вырезать  (B[0;7m^T(B[m Выполнить (B[0;7m^C(B[m Позиция[24d(B[0;7m^X(B[m Выход     (B[0;7m^R(B[m ЧитФайл   (B[0;7m^\(B[m Замена    (B[0;7m^U(B[m Вставить  (B[0;7m^J(B[m Выровнять (B[0;7m^/(B[m К строке[2dadmin.pem[3dback,[4dchef-repo[5dchef-server-core_14.14.1-1_amd64.deb[6dchef-server-core_14.14.1-1_amd64.deb.1[7dchef-workstation_23.7.1042-1_amd64.deb[8dchef-workstation_23.7.1042-1_amd64.deb.1[9dlabrabota4[10dlinux-labs[11dls[12dpuppet7-release-noble.deb[13dsnap[14dtask1yakubovich.txt[15dtask2yakubovich.txt[16dtask3yakubovich.txt[17dtask4yakubovich.txt[18dtask5yakubovich.txt[19dtask6yakubovich.txt[20dtask7yakubovich.txt[21dtimelog1yakubovich[2d[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[14d[?25l[?12l[?25h[11d[?25l[?12l[?25h[A[?25l[?12l[?25h[8d[?25l[22d[K[?12l[?25h[5d[?25l[?12l[?25h[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[23d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ rm task7.txt 
+[?2004lrm: невозможно удалить 'task7.txt': Операция не позволена
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ sudo chattr i[K-i task7.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ lsattr task7.txt 
+[?2004l--------------e------- task7.txt
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-08 18:46:22+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,211 @@
+Script started on 2025-04-08 15:11:51+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ sudo -i
+[?2004l[sudo] пароль для huskutop: 
+[?2004h]0;root@huskutop: ~root@huskutop:~# mkdir /tmp/labrabota4
+[?2004l[?2004h]0;root@huskutop: ~root@huskutop:~# cd lab[K[K[K[K /tmp/labrabota4/
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch letter.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# sudo useradd stude[Kent
+[?2004luseradd: пользователь «student» уже существует
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chown student letter.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# groupadd visitors
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# sudo useradd student1
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# usermod -aG visitors student
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# usermod -aG visitors student1
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chown '[K: [Kvisitors letter.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# ls -l letter,[K.txt
+[?2004l-rw-r--r-- 1 student visitors 0 апр  8 15:13 letter.txt
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod g+w letter.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# /tmp/labrabota4# su student1
+[?2004l-bash: /tmp/labrabota4#: Нет такого файла или каталога
+Для вас есть почта в /var/mail/root
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# cd
+[?2004l[?2004h]0;root@huskutop: ~root@huskutop:~# cd/tmp/labrabota4# su student1
+[?2004l-bash: /tmp/labrabota4#: Нет такого файла или каталога
+[?2004h]0;root@huskutop: ~root@huskutop:~# /tmp/labrabota4# su student1[1P
+[?2004l-bash: /tmp/labrabota4: Это каталог
+[?2004h]0;root@huskutop: ~root@huskutop:~# vim letter.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"letter.txt" [н[24;16Hо[24;17Hв[24;18Hы[24;19Hй[24;20H][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1  В[24;71Hе[24;72Hс[24;73Hь[24;75Hт[24;76Hе[24;77Hк[24;78Hс[24;79Hт[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1  В[24;71Hе[24;72Hс[24;73Hь[24;75Hт[24;76Hе[24;77Hк[24;78Hс[24;79Hт[24;1H"letter.txt" [н[24;16Hо[24;17Hв[24;18Hы[24;19Hй[24;20H][1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- Р[24;5HЕ[24;6HЖ[24;7HИ[24;8HМ[24;9H В[24;11HС[24;12HТ[24;13HА[24;14HВ[24;15HК[24;16HИ[24;17H --[m[24;20H[K[24;63H0,1    В[24;71Hе[24;72Hс[24;73Hь[24;75Hт[24;76Hе[24;77Hк[24;78Hс[24;79Hт[1;1H[?25h[?25l<[24;63H1,2[1;2H[?25h[?25lU[24;65H3[1;3H[?25h[?25l[1;2H[K[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lБ[24;65H3-2[1;2H[?25h[?25lГ[24;65H5-3[1;3H[?25h[?25lУ[24;65H7-4[1;4H[?25h[?25l[2;1H[K[24;63H2,1  [2;1H[?25h[?25lБ[24;65H3-2[2;2H[?25h[?25lГ[24;65H5-3[2;3H[?25h[?25lУ[24;65H7-4[2;4H[?25h[?25lИ[24;65H9-5[2;5H[?25h[?25lР[24;65H11-6[2;6H[?25h[?25l[3;1H[K[24;63H3,1   [3;1H[?25h[?25lБ[24;65H3-2[3;2H[?25h[?25lН[24;65H5-3[3;3H[?25h[?25lТ[24;65H7-4[3;4H[?25h[?25lУ[24;65H9-5[3;5H[?25h[?25l[4;1H[K[24;63H4,1  [4;1H[?25h[?25lБ[24;65H3-2[4;2H[?25h[?25lГ[24;65H5-3[4;3H[?25h[?25lТ[24;65H7-4[4;4H[?25h[?25lУ[24;65H9-5[4;5H[?25h[?25l[5;1H[K[24;63H5,1  [5;1H[?25h[?25lБ[24;65H3-2[5;2H[?25h[?25lГ[24;65H5-3[5;3H[?25h[?25lЭ[24;65H7-4[5;4H[?25h[?25lУ[24;65H9-5[5;5H[?25h[?25l[6;1H[K[24;63H6,1  [6;1H[?25h[?25lБ[24;65H3-2[6;2H[?25h[?25lГ[24;65H5-3[6;3H[?25h[?25lП[24;65H7-4[6;4H[?25h[?25lУ[24;65H9-5[6;5H[?25h[?25l[7;1H[K[24;63H7,1  [7;1H[?25h[?25lБ[24;65H3-2[7;2H[?25h[?25lГ[24;65H5-3[7;3H[?25h[?25lА[24;65H7-4[7;4H[?25h[?25lУ[24;65H9-5[7;5H[?25h[?25l[8;1H[K[24;63H8,1  [8;1H[?25h[?25lМ[24;65H3-2[8;2H[?25h[?25lГ[24;65H5-3[8;3H[?25h[?25lЛ[24;65H7-4[8;4H[?25h[?25lУ[24;65H9-5[8;5H[?25h[?25l[9;1H[K[24;63H9,1  [9;1H[?25h[?25lБ[24;65H3-2[9;2H[?25h[?25l[9;1H[K[24;65H1  [9;1H[?25h[?25lП[24;65H3-2[9;2H[?25h[?25lГ[24;65H5-3[9;3H[?25h[?25lУ[24;65H7-4[9;4H[?25h[?25l[10;1H[K[24;63H10,1 [10;1H[?25h[?25lБ[24;66H3-2[10;2H[?25h[?25lГ[24;66H5-3[10;3H[?25h[?25lМ[24;66H7-4[10;4H[?25h[?25lУ[24;66H9-5[10;5H[?25h[24;1H[K[10;4H[?25l[24;53H^[[10;4H[24;53H  [10;5H[24;63H10,7-4 В[24;71Hе[24;72Hс[24;73Hь[24;75Hт[24;76Hе[24;77Hк[24;78Hс[24;79Hт[10;4H[?25h[?25l[24;53H<0416>[10;4H[24;53H      [10;4H[?25h[?25l[24;53H<0446>[10;4H[24;53H      [10;4H[?25h[?25l[24;53H<0439>[10;4H[24;53H      [10;4H[?25h[?25l[24;53H<0416>[10;4H[24;53H      [10;4H[?25h[?25l[24;53H:[10;4H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"letter.txt" [н[24;16Hо[24;17Hв[24;18Hы[24;19Hй[24;20H] 10L, 88B з[24;32Hа[24;33Hп[24;34Hи[24;35Hс[24;36Hа[24;37Hн[24;38Hо[24;1H[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;root@huskutop: ~root@huskutop:~# vim letter.txt/tmp/labrabota4 su student1[1@#[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K/tmp/labrabota4# su student1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pchmod g+w letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tmp/labrabota4# su student1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pchmod g+w letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C[C[C[C[10@chown :visitors[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusermod -aG visitors student1[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psudo useradd student1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgroupadd visitorschown student letter.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psudo useradd student[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Ptouch letter.txtcd /tmp/labrabota4/
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# cd /tmp/labrabota4/[5Pvim letter.txt/tmp/labrabota4 su student1[1@#[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004l$ vi^[[A^[[A         im letter.txt
+sh: 1: vim: not found
+$ ^[  ^[  	^[  exit    exit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 440 letter,[K.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# umask
+[?2004l0022
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# ls -l letter.txt
+[?2004l-r--r----- 1 student visitors 0 апр  8 15:13 letter.txt
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# umasl[Kk 0007
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch getmask.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# mkdir somedir
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# ls -l
+[?2004lитого 4
+-rw-rw---- 1 root    root        0 апр  8 15:28 getmask.txt
+-r--r----- 1 student visitors    0 апр  8 15:13 letter.txt
+drwxrwx--- 2 root    root     4096 апр  8 15:28 [0m[01;34msomedir[0m
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# umask 0022
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f1.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 700 f1.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 700 f1.txt[C[4Ptouch[C[C[C[C[C[C[C[1P.txt2.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f2.txtchmod 700 f1.txt[1P.txt2.txt[1P f2.txt[1P f2.txt[1P f2.txt6 f2.txt4 f2.txt7 f2.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 647 f2.txt[4Ptouch[C[C[C[C[C[C[C[1P.txt3.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f3.txtchmod 647 f2.txt[1P.txt3.txt[1P f3.txt[1P f3.txt[1P f3.txt3 f3.txt0 f3.txt4 f3.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 304 f3.txt[4Ptouch[C[C[C[C[C[C[C[1P.txt4.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f4.txtchmod 304 f3.txt[1P.txt4.txt[1P f4.txt[1P f4.txt[1P f4.txt2 f4.txt7 f4.txt2 f4.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 272 f4.txt[4Ptouch[C[C[C[C[C[C[C[1P.txt1.txt1.txt[1P.txt[1P.txt5.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f5.txtchmod 272 f4.txt[C[1P.txt5.txt[1P f5.txt[1P f5.txt[1P f5.txtu f5.txt= f5.txtt f5.txtw f5.txtx f5.txt[1P f5.txt[1P f5.txt[1P f5.txtr f5.txtw f5.txtx f5.txt, f5.txtg f5.txt= f5.txt, f5.txto f5.txt= f5.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod u=rwx,g=,o= f5.txt[12Ptouch[C[C[C[C[C[C[C[1P.txt6.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f6.txtchmod u=rwx,g=,o= f5.txt[1P.txt6.txt[1P[C[C[C[1@r[C[C[Cr f6.txtw f6.txtx f6.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod u=rw,g=r,o=rwx f6.txt[15Ptouch[C[C[C[C[C[C[C[1P.txt7.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f7.txtchmod u=rw,g=r,o=rwx f6.txt[1P.txt7.txt[1P[C[1@x[C[C[C[C[1P[C[C[C[C[C[C[1P f7.txt[1P f7.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod u=wx,g=,o=r f7.txt[12Ptouch[C[C[C[C[C[C[C[1P.txt8.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f8.txtchmod u=wx,g=,o=r f7.txt[1P[C[C[C[C[C[C[C[1@r[1@w[1@x[C[C[C[C[1P f7.txtw f7.txt[C[C[C[1P.txt8.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f9.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 10 f9.txt ..[K[K[K
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 10 f9.txt[3Ptouch[C[C[C[C[C[C[C[1P.txt1.txt0.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f10.txtchmod 10 f9.txt[1P.txt1.txt0.txt[1P f10.txt[1P f10.txt4 f10.txt2 f10.txt5 f10.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod 425 f10.txt[4Ptouch[C[C[C[C[C[C[C[C[1P.txt1.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# touch f11.txtchmod 425 f10.txt[1P f10.txt[1P f10.txt[1P f10.txt1 f10.txt0 f10.txt3 f10.txt[C[C[C[C[1P.txt1.txt
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# ls -l f1/[K.txt f2,[K.txt f3/[K.txt f4.txt f5.txt f6.txt f 7.txt f8.txt f9.txt f10.txt f11.txt
+[?2004l-r---w-r-x 1 root root 0 апр  8 15:39 [0m[01;32mf10.txt[0m
+---x----wx 1 root root 0 апр  8 15:39 [01;32mf11.txt[0m
+-rwx------ 1 root root 0 апр  8 15:30 [01;32mf1.txt[0m
+-rw-r--rwx 1 root root 0 апр  8 15:30 [01;32mf2.txt[0m
+--wx---r-- 1 root root 0 апр  8 15:30 [01;32mf3.txt[0m
+--w-rwx-w- 1 root root 0 апр  8 15:31 [01;32mf4.txt[0m
+-rwx------ 1 root root 0 апр  8 15:32 [01;32mf5.txt[0m
+-rw-r--rwx 1 root root 0 апр  8 15:33 [01;32mf6.txt[0m
+--wx---r-- 1 root root 0 апр  8 15:33 [01;32mf7.txt[0m
+--w-rwx-w- 1 root root 0 апр  8 15:34 [01;32mf8.txt[0m
+------x--- 1 root root 0 апр  8 15:39 [01;32mf9.txt[0m
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chown :visitors somedir
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# chmod g+s somedir/
+[?2004l[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su student1
+[?2004l$ cd somedir
+$ touch newfile.txt
+sh: 2: touch: not found
+$ mkdie r newdir
+sh: 3: mkdir: not found
+$ ls -l
+sh: 4: ls: not found
+$ exit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su student1[C-student1lstudent1 student1
+[?2004lsu: предупреждение: не могу поменять каталог на /home/student1: Нет такого файла или каталога
+-sh: 12: id: not found
+-sh: 12: [: Illegal number: 
+-sh: 9: /etc/profile.d/debuginfod.sh: tr: not found
+-sh: 5: /etc/profile.d/puppet-agent.sh: grep: not found
+-sh: 9: /etc/profile.d/puppet-agent.sh: grep: not found
+$ ^[[A^[[A^[[B            cd comedir^[[D^[[D^[[D^[[D                       somedir
+$ touch newfile.txt
+-sh: 2: touch: not found
+$ exit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su -l student1[1P student1
+[?2004lsu: предупреждение: не могу поменять каталог на /home/student1: Нет такого файла или каталога
+-sh: 12: id: not found
+-sh: 12: [: Illegal number: 
+-sh: 9: /etc/profile.d/debuginfod.sh: tr: not found
+-sh: 5: /etc/profile.d/puppet-agent.sh: grep: not found
+-sh: 9: /etc/profile.d/puppet-agent.sh: grep: not found
+$ ^[[A    touch newfile.txt
+-sh: 1: touch: not found
+$ /bin/touch newfile.txt
+/bin/touch: невозможно выполнить touch для 'newfile.txt': Отказано в доступе
+$ sudo /bin/touch newfile.txt
+-sh: 3: sudo: not found
+$ exit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# ls -ld /bin /usr/bin
+[?2004llrwxrwxrwx 1 root root     7 апр 22  2024 [0m[01;36m/bin[0m -> [01;34musr/bin[0m
+drwxr-xr-x 2 root root 49152 апр  6 15:31 [01;34m/usr/bin[0m
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# sudo adduser student1
+[?2004lfatal: Пользователь «student1» уже существует.
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# sudo adduser s1
+[?2004linfo: Добавляется пользователь «s1» ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Добавляется новая группа «s1» (1004) ...
+info: Adding new user `s1' (1004) with group `s1 (1004)' ...
+info: Создаётся домашний каталог «/home/s1» ...
+info: Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе s1
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: s1
+	Номер комнаты []: 
+	Рабочий телефон []: 
+	Домашний телефон []: 
+	Другое []: 
+Данная информация корректна? [Y/n] 
+info: Adding new user `s1' to supplemental / extra groups `users' ...
+info: Добавляется пользователь «s1» в группу «users» ...
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su - s1
+[?2004l-bash: groups: команда не найдена
+Команда 'tr' доступна в следующих местах
+ * /bin/tr
+ * /usr/bin/tr
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+tr: команда не найдена
+Команда 'grep' доступна в следующих местах
+ * /bin/grep
+ * /usr/bin/grep
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+grep: команда не найдена
+Команда 'grep' доступна в следующих местах
+ * /bin/grep
+ * /usr/bin/grep
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+grep: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;s1@huskutop: ~[01;32ms1@huskutop[00m:[01;34m~[00m$ sudo -i
+[?2004lКоманда 'sudo' доступна в следующих местах
+ * /bin/sudo
+ * /usr/bin/sudo
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+sudo: команда не найдена
+[?2004h]0;s1@huskutop: ~[01;32ms1@huskutop[00m:[01;34m~[00m$ exit
+[?2004lвыход
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su - s1[1P s1[1Ps1
+[?2004lbash: groups: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;s1@huskutop: /tmp/labrabota4[01;32ms1@huskutop[00m:[01;34m/tmp/labrabota4[00m$ exit
+[?2004lexit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# su s1- s1[2Ps1
+[?2004lbash: groups: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;s1@huskutop: /tmp/labrabota4[01;32ms1@huskutop[00m:[01;34m/tmp/labrabota4[00m$ exit
+[?2004lexit
+[?2004h]0;root@huskutop: /tmp/labrabota4root@huskutop:/tmp/labrabota4# exit
+[?2004lвыход
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-08 18:13:26+03:00 [COMMAND_EXIT_CODE="0"]

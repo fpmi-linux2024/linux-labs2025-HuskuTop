@@ -1,0 +1,26 @@
+Script started on 2025-04-08 14:19:29+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exitsort -r request.txt exit[K[Kcdd[K labrabota4/
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ mkdir workdir
+[?2004l[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls -lt
+[?2004lитого 8
+drwxrwxr-x 2 huskutop huskutop 4096 апр  8 14:20 [0m[01;34mworkdir[0m
+-rw-rw-r-- 1 huskutop huskutop  151 апр  8 14:10 request.txt
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls -ltr
+[?2004lитого 8
+-rw-rw-r-- 1 huskutop huskutop  151 апр  8 14:10 request.txt
+drwxrwxr-x 2 huskutop huskutop 4096 апр  8 14:20 [0m[01;34mworkdir[0m
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls a[K-a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  request.txt  [01;34mworkdir[0m
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls -i
+[?2004l1346494 request.txt  1346900 [0m[01;34mworkdir[0m
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ ls -ali
+[?2004lитого 16
+1346765 drwxrwxr-x  3 huskutop huskutop 4096 апр  8 14:20 [0m[01;34m.[0m
+1310765 drwxr-x--- 23 huskutop huskutop 4096 апр  8 14:19 [01;34m..[0m
+1346494 -rw-rw-r--  1 huskutop huskutop  151 апр  8 14:10 request.txt
+1346900 drwxrwxr-x  2 huskutop huskutop 4096 апр  8 14:20 [01;34mworkdir[0m
+[?2004h]0;huskutop@huskutop: ~/labrabota4[01;32mhuskutop@huskutop[00m:[01;34m~/labrabota4[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-08 14:22:40+03:00 [COMMAND_EXIT_CODE="0"]
