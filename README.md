@@ -11,3 +11,11 @@
 [lab2-intro](https://github.com/HuskuTop/lab2-intro)
 
 [lab2-markdown-syntax](https://github.com/HuskuTop/lab2--markdown-syntax)
+
+## Лабораторная работа №3
+
+[Ссылка на отчёт](https://disk.yandex.by/d/0PNI32nVSlYG0Q)
+
+## Лабораторная работа №4
+
+[Ссылка на отчёт](https://disk.yandex.ru/d/1SoFfr_6hCn2Gw)
