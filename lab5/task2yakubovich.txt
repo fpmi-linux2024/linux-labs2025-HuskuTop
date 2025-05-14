@@ -1,0 +1,711 @@
+Script started on 2025-04-15 11:59:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="74" LINES="21"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit[Kexit[2Pcdrsync -av rsync-backup/ temp/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kexit[2Pcd lab5-tasks/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -xvf artar1.tar -C ?[K/home/use[K[K[Khusl[Kkutop/1
+[?2004lrequest1.txt
+letter1.txt
+order1.txt
+letter1.txt
+order1.txt
+request2.txt
+letter2.txt
+order2.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -rf artar1.tar request3.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir newdir
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd newdir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ cd newdir/mkdir newdirtar -rf artar1.tar request3.txt xvf artar1.tar -C /home/huskutop/1[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [21Pcd lab5-tasks/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2Pcdrsync -av rsync-backup/ temp/echo "Новая строка" >> rsync-backup/letter.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [6Prsync -av rsync-backup/ temp/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp request.txt letter.txt order.txt rsync-backup/[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [12Pmkdir rsync-backup temp
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ktar -tf example-xz.tar.xz cf - example-xz | xz -T2 > example-xz-multi.tar.xz [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9 > examp[2Ple-xz-high[C[C[C[C[C[C[C[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> example-[8Pxz[C[C[C[C[C[C[C[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[Cxf example-xz-docs.tar
+[C[C[C/f3.doc[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxz -d example-xz-docs.tar.xz ls[Ktar -tf example-xz-docs.tar.xz[16Pcd example-xz/tar -cf - example-xz/*.doc | xz > example-xz-docs.tar.xz[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | xz -T3 > example-xz-threaded.tar.xz[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C= example-xz/ | xz > example[13P-xz.tar.xz[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [11Pxz -k example-xz/f1.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kdd if=/dev/urandom of=f4.doc bs=1M count=10[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3
+[C[C[C[C[C[C20[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.txt
+[C[C[C[C[C[C10[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[C[C[C[C[C[C[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [21Pcd example-xz/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir example-xz[2Pcd lab5-tasks/[4Psu studentcd[Ktar -xvzf tar_dir/artar4.tar.gz -C tar_dir2[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [21Pmkdir tar_dir2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd ..tar -xvzf artar4.tar.gz[12Pcd tar_dir/tar -tzvf tar_dir/artar4.tar.gz [7Pcp artar4.tar.gz tar_dir/[12Pmkdir tar_dirtar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [10Pcp letter.txt letter4.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Porder.txt order4.txtrequest.txt request4.txttar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ su student[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cvpf artar3.tar request3.txt letter3.txt order3.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [8Pcp request.txt request3.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Porder.txt order3.txtletter.txt letter3.txt[6Ptar -tvf artar1.tarAf artar1.tar artar2.tarcvf artar2.tar request2.txt letter2.txt order2.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [8Pcp request.txt request2.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Porder.txt order2.txtletter.txt letter2.txttar -uvf artar1.tar letter1.txt order1.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [19Pnano letter1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Porder1.txtecho "Новая строка 3" >> order1.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3" >> letter1.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1" >> order1.txt [K[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3" >> letter1.txt [A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C letter1.txt [K[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txt  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1@1[1P[1@f
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ echo "Новая строка 1" > f1.txt [1P[1@2[C[C[C[C[1P [1P [1P d o c 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ echo "Новая строка 1" > f2.doc [1P[1@3[C[C[C
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ echo "Новая строка 1" > f3.doc [Cx 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ touch f5.jpg
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ls
+[?2004lf1.txt  f2.doc  f3.doc  f3.docx  [0m[01;35mf5.jpg[0m
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -cvf example.tar *.txt *.doc *. docx *.jpg
+[?2004lf1.txt
+f2.doc
+f3.doc
+f3.docx
+f5.jpg
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -xvf example.tar --wildcards "[K'* .doc'
+[?2004lf2.doc
+f3.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -f example.tar --delete --wildc ards '*.txt'
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -tf example.tar 
+[?2004lf2.doc
+f3.doc
+f3.docx
+f5.jpg
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ls ~ > example.tar [K[K[K[K[K1.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ls /etc > example2.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -czf output.txt.gz example1.txt  example2.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ gunzip -c u[Koutput.txt.gz 
+[?2004lexample1.txt                                                                                        0000664 0001750 0001750 00000001032 14777421214 013670  0                                                                                                    ustar   huskutop                        huskutop                                                                                                                                                                                                               1
+admin.pem
+back,
+chef-repo
+chef-server-core_14.14.1-1_amd64.deb
+chef-server-core_14.14.1-1_amd64.deb.1
+chef-workstation_23.7.1042-1_amd64.deb
+chef-workstation_23.7.1042-1_amd64.deb.1
+lab4
+lab5-tasks
+labrabota4
+linux-labs
+ls
+puppet7-release-noble.deb
+snap
+task1yakubovich.txt
+task2yakubovich.txt
+timelog1yakubovich
+timelog2yakubovich
+validator.pem
+visitor!
+Welcome
+yakubovich
+yakubovich.c
+Видео
+Документы
+Загрузки
+Изображения
+Музыка
+Общедоступные
+Рабочий стол
+Шаблоны
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      example2.txt                                                                                        0000664 0001750 0001750 00000004557 14777421231 013707  0                                                                                                    ustar   huskutop                        huskutop                                                                                                                                                                                                               adduser.conf
+aliases
+aliases.db
+alsa
+alternatives
+anacrontab
+ansible
+apache2
+apg.conf
+apm
+apparmor
+apparmor.d
+apport
+apt
+avahi
+bash.bashrc
+bash_completion
+bash_completion.d
+bindresvport.blacklist
+binfmt.d
+bluetooth
+brlapi.key
+brltty
+brltty.conf
+ca-certificates
+ca-certificates.conf
+chatscripts
+chef
+cloud
+colord
+console-setup
+cracklib
+credstore
+credstore.encrypted
+cron.d
+cron.daily
+cron.hourly
+cron.monthly
+crontab
+cron.weekly
+cron.yearly
+cups
+cupshelpers
+dbus-1
+dconf
+debconf.conf
+debian_version
+debuginfod
+default
+deluser.conf
+depmod.d
+dhcp
+dhcpcd.conf
+dictionaries-common
+dpkg
+e2scrub.conf
+emacs
+environment
+environment.d
+ethertypes
+fonts
+fprintd.conf
+fstab
+fuse.conf
+fwupd
+gai.conf
+gdb
+gdm3
+geoclue
+ghostscript
+glvnd
+gnome
+gnome-remote-desktop
+gnutls
+gprofng.rc
+groff
+group
+group-
+grub.d
+gshadow
+gshadow-
+gss
+gssapi_mech.conf
+gtk-2.0
+gtk-3.0
+hdparm.conf
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+hp
+ifplugd
+init
+init.d
+initramfs-tools
+inputrc
+insserv.conf.d
+ipp-usb
+iproute2
+issue
+issue.net
+java
+java-11-openjdk
+java-21-openjdk
+kernel
+kerneloops.conf
+krb5.conf.d
+ldap
+ld.so.cache
+ld.so.conf
+ld.so.conf.d
+legal
+libao.conf
+libaudit.conf
+libblockdev
+libibverbs.d
+libnl-3
+libpaper.d
+lighttpd
+locale.alias
+locale.conf
+locale.gen
+localtime
+logcheck
+login.defs
+logrotate.conf
+logrotate.d
+lsb-release
+machine-id
+machine-info
+magic
+magic.mime
+manpath.config
+mime.types
+mke2fs.conf
+ModemManager
+modprobe.d
+modules
+modules-load.d
+motd
+mtab
+mysql
+nanorc
+netconfig
+netplan
+network
+networkd-dispatcher
+NetworkManager
+networks
+newt
+nftables.conf
+nsswitch.conf
+openvpn
+opscode
+opt
+os-release
+PackageKit
+pam.conf
+pam.d
+papersize
+passwd
+passwd-
+pcmcia
+perl
+pki
+plymouth
+pm
+pnm2ppa.conf
+polkit-1
+postfix
+ppp
+printcap
+profile
+profile.d
+protocols
+pulse
+puppet
+python3
+python3.12
+rc0.d
+rc1.d
+rc2.d
+rc3.d
+rc4.d
+rc5.d
+rc6.d
+rcS.d
+resolv.conf
+resolvconf
+rmt
+rpc
+rsyslog.conf
+rsyslog.d
+rygel.conf
+salt
+sane.d
+security
+selinux
+sensors3.conf
+sensors.d
+services
+sgml
+shadow
+shadow-
+shells
+skel
+snmp
+speech-dispatcher
+ssh
+ssl
+sssd
+subgid
+subgid-
+subuid
+subuid-
+sudo.conf
+sudoers
+sudoers.d
+sudo_logsrvd.conf
+supercat
+sysctl.conf
+sysctl.d
+sysstat
+systemd
+terminfo
+thermald
+timezone
+tmpfiles.d
+ubuntu-advantage
+ucf.conf
+udev
+udisks2
+ufw
+update-manager
+update-motd.d
+update-notifier
+UPower
+usb_modeswitch.conf
+usb_modeswitch.d
+vconsole.conf
+vim
+vmware-tools
+vtrgb
+vulkan
+wgetrc
+wpa_supplicant
+X11
+xattr.conf
+xdg
+xml
+zsh_command_not_found
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ zcar[Kt output.txt.gz 
+[?2004lexample1.txt                                                                                        0000664 0001750 0001750 00000001032 14777421214 013670  0                                                                                                    ustar   huskutop                        huskutop                                                                                                                                                                                                               1
+admin.pem
+back,
+chef-repo
+chef-server-core_14.14.1-1_amd64.deb
+chef-server-core_14.14.1-1_amd64.deb.1
+chef-workstation_23.7.1042-1_amd64.deb
+chef-workstation_23.7.1042-1_amd64.deb.1
+lab4
+lab5-tasks
+labrabota4
+linux-labs
+ls
+puppet7-release-noble.deb
+snap
+task1yakubovich.txt
+task2yakubovich.txt
+timelog1yakubovich
+timelog2yakubovich
+validator.pem
+visitor!
+Welcome
+yakubovich
+yakubovich.c
+Видео
+Документы
+Загрузки
+Изображения
+Музыка
+Общедоступные
+Рабочий стол
+Шаблоны
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      example2.txt                                                                                        0000664 0001750 0001750 00000004557 14777421231 013707  0                                                                                                    ustar   huskutop                        huskutop                                                                                                                                                                                                               adduser.conf
+aliases
+aliases.db
+alsa
+alternatives
+anacrontab
+ansible
+apache2
+apg.conf
+apm
+apparmor
+apparmor.d
+apport
+apt
+avahi
+bash.bashrc
+bash_completion
+bash_completion.d
+bindresvport.blacklist
+binfmt.d
+bluetooth
+brlapi.key
+brltty
+brltty.conf
+ca-certificates
+ca-certificates.conf
+chatscripts
+chef
+cloud
+colord
+console-setup
+cracklib
+credstore
+credstore.encrypted
+cron.d
+cron.daily
+cron.hourly
+cron.monthly
+crontab
+cron.weekly
+cron.yearly
+cups
+cupshelpers
+dbus-1
+dconf
+debconf.conf
+debian_version
+debuginfod
+default
+deluser.conf
+depmod.d
+dhcp
+dhcpcd.conf
+dictionaries-common
+dpkg
+e2scrub.conf
+emacs
+environment
+environment.d
+ethertypes
+fonts
+fprintd.conf
+fstab
+fuse.conf
+fwupd
+gai.conf
+gdb
+gdm3
+geoclue
+ghostscript
+glvnd
+gnome
+gnome-remote-desktop
+gnutls
+gprofng.rc
+groff
+group
+group-
+grub.d
+gshadow
+gshadow-
+gss
+gssapi_mech.conf
+gtk-2.0
+gtk-3.0
+hdparm.conf
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+hp
+ifplugd
+init
+init.d
+initramfs-tools
+inputrc
+insserv.conf.d
+ipp-usb
+iproute2
+issue
+issue.net
+java
+java-11-openjdk
+java-21-openjdk
+kernel
+kerneloops.conf
+krb5.conf.d
+ldap
+ld.so.cache
+ld.so.conf
+ld.so.conf.d
+legal
+libao.conf
+libaudit.conf
+libblockdev
+libibverbs.d
+libnl-3
+libpaper.d
+lighttpd
+locale.alias
+locale.conf
+locale.gen
+localtime
+logcheck
+login.defs
+logrotate.conf
+logrotate.d
+lsb-release
+machine-id
+machine-info
+magic
+magic.mime
+manpath.config
+mime.types
+mke2fs.conf
+ModemManager
+modprobe.d
+modules
+modules-load.d
+motd
+mtab
+mysql
+nanorc
+netconfig
+netplan
+network
+networkd-dispatcher
+NetworkManager
+networks
+newt
+nftables.conf
+nsswitch.conf
+openvpn
+opscode
+opt
+os-release
+PackageKit
+pam.conf
+pam.d
+papersize
+passwd
+passwd-
+pcmcia
+perl
+pki
+plymouth
+pm
+pnm2ppa.conf
+polkit-1
+postfix
+ppp
+printcap
+profile
+profile.d
+protocols
+pulse
+puppet
+python3
+python3.12
+rc0.d
+rc1.d
+rc2.d
+rc3.d
+rc4.d
+rc5.d
+rc6.d
+rcS.d
+resolv.conf
+resolvconf
+rmt
+rpc
+rsyslog.conf
+rsyslog.d
+rygel.conf
+salt
+sane.d
+security
+selinux
+sensors3.conf
+sensors.d
+services
+sgml
+shadow
+shadow-
+shells
+skel
+snmp
+speech-dispatcher
+ssh
+ssl
+sssd
+subgid
+subgid-
+subuid
+subuid-
+sudo.conf
+sudoers
+sudoers.d
+sudo_logsrvd.conf
+supercat
+sysctl.conf
+sysctl.d
+sysstat
+systemd
+terminfo
+thermald
+timezone
+tmpfiles.d
+ubuntu-advantage
+ucf.conf
+udev
+udisks2
+ufw
+update-manager
+update-motd.d
+update-notifier
+UPower
+usb_modeswitch.conf
+usb_modeswitch.d
+vconsole.conf
+vim
+vmware-tools
+vtrgb
+vulkan
+wgetrc
+wpa_supplicant
+X11
+xattr.conf
+xdg
+xml
+zsh_command_not_found
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -cvf - ubuntu-24.04.1-desctop[C[1Ptopktop[C[C[C-amd64.iso | gzip[K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ tar -cvf - ubuntu-24.04.1-desktop-amd64.iso | gzip[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [10Pzcat output.txt.gz 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cvf - ubuntu-24.04.1-desktop-amd64.iso | gzip|[K | split -b 100M - ubuntu.gz.part-^[[200~ubuntu-24.04.1-desktop-amd64.iso~[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-2[1P4.04.1-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-24[1P.04.1-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-24.[1P04.1-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-24.0[1P4.1-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-24.04[1P.1-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cubuntu-24.04.1[2P-desktop-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ;[Kls[K[Kcd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ^[[200~sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches~[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[7msudo sync && echo 3 | sudo tee /proc/sys/vm/dro[27m[7mp[27m[7m_caches[27m[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+[?2004l[sudo] пароль для huskutop: 
+3
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cvf - ubuntu-22.04.5-desktop-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4.04.5-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [28Pzcat output.txt.gz 
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@gunzip -c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pzcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cvf - ubuntu-24.04.1-desktop-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-24.04.1-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.04.5-desktop-amd64.iso[A[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C lab5-tasks/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd newdir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ cd newdir/lab5-tasks/sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cvf - ubuntu-22.04.5-desktop-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-desktop-amd64.iso[1P-amd64.iso[C[C[C[C[C[C[C[C[1P-amd64.iso[C[C[C[C[C[C[C[1P-amd64.iso[C[C[C[C[C[C[1P-amd64.iso[C[C[C[C[C[1P-amd64.iso[C[C[C[C[1P-amd64.iso[C[C[C[1P-amd64.iso[C[Cl-amd64.iso[C[C[Ci-amd64.iso[C[C[C[Cv-amd64.iso[C[C[C[C[Ce-amd64.iso[C[C[C[C[C[C[C-amd64.iso[C[C[C[C[C[C[Cs-amd64.iso[C[C[C[C[C[C[C[Ce-amd64.isor-amd64.isoc-amd64.iso[1P-amd64.isov-amd64.isoe-amd64.isor-amd64.iso[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-[1Plive-server-amd64.iso[A[C[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-l[1Pive-server-amd64.iso[A[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-li[1Pve-server-amd64.iso[A[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-liv[1Pe-server-amd64.iso[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live[1P-server-amd64.iso[A[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-[1Pserver-amd64.iso[A[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-s[1Perver-amd64.iso[A[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[A]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[Ae-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[Cs-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[Ce-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[C[Cr-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[C[C[Cv-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[C[C[C[Ce-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[C[C[C[C[Cr-amd64.iso | gzip | split -b 100M - ubuntu.gz.part-ubuntu-22.04.5-live-server-amd64.iso[A[C[C[C[C[C[C[C[C
+
+[?2004lubuntu-22.04.5-live-server-amd64.iso
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[rt-ubuntu-22.04.5-live-server-amd64.isoag: На устройстве не осталось свободного места
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ S[Kcat ubuntu gz[K[K[K.gz.part-* | gunzip > full_mint.[K[K[K[K[Kubuntu.iso
+[?2004l
+gzip: stdout: No space left on device
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ cat ubuntu.gz.part-* | gunzip > full_ubuntu.iso
+[?2004l
+gzip: stdin: invalid compressed data--format violated
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ shar example1.txt example2.txt  >[K[K> archive.shar
+[?2004lКоманда «shar» не найдена, но может быть установлена с помощью:
+sudo apt install sharutils
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ sudo apt install sharutils
+[?2004l[sudo] пароль для huskutop: 
+Чтение списков пакетов… 0%Чтение списков пакетов… 100%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Предлагаемые пакеты:
+  sharutils-doc
+Следующие НОВЫЕ пакеты будут установлены:
+  sharutils
+Обновлено 0 пакетов, установлено 1 новых пакетов, для удаления отмечено 0 пакетов, и 252 пакетов не обновлено.
+Установлено или удалено не до конца 1 пакетов.
+Необходимо скачать 259 kB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 1 276 kB.
+[33m0% [Обработка][0m[33m0% [Обработка][0m[33m0% [Ожидание заголовков][0m                                          Пол:1 http://by.archive.ubuntu.com/ubuntu noble/universe amd64 sharutils amd64 1:4.15.2-9 [259 kB]
+[33m                                          0% [1 sharutils 1 201 B/259 kB 0%][0m[33m                                    100% [Обработка][0m                         Получено 259 kB за 1с (231 kB/s)
+
+7[0;31r8[1AВыбор ранее не выбранного пакета sharutils.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 375623 файла и каталога.)
+Подготовка к распаковке …/sharutils_1%3a4.15.2-9_amd64.deb …
+7[32;0f[42m[30mХод выполнения: [  0%][49m[39m [............................................................................................] 87[32;0f[42m[30mХод выполнения: [ 14%][49m[39m [#############...............................................................................] 8Распаковывается sharutils (1:4.15.2-9) …
+7[32;0f[42m[30mХод выполнения: [ 29%][49m[39m [##########################..................................................................] 8Настраивается пакет puppet-module-puppetlabs-mailalias-core (1.0.6-3) …
+7[32;0f[42m[30mХод выполнения: [ 43%][49m[39m [#######################################.....................................................] 8update-alternatives: используется /usr/share/puppet/modules.available/puppetlabs-mailalias-core для предоставления /usr/share/puppet/modules/mailalias (puppet-module-mailalias) в автоматическом режиме
+update-alternatives: ошибка: ошибка создания символьной ссылки «/usr/share/puppet/modules/mailalias.dpkg-tmp»: Нет такого файла или каталога
+[1mdpkg:[0m ошибка при обработке пакета puppet-module-puppetlabs-mailalias-core (--configure):
+ подпроцесс из пакета puppet-module-puppetlabs-mailalias-core установлен сценарий post-installation возвратил код ошибки 2
+Настраивается пакет sharutils (1:4.15.2-9) …
+7[32;0f[42m[30mХод выполнения: [ 57%][49m[39m [####################################################........................................] 87[32;0f[42m[30mХод выполнения: [ 71%][49m[39m [#################################################################...........................] 8Обрабатываются триггеры для install-info (7.1-3build2) …
+Обрабатываются триггеры для man-db (2.12.0-4build2) …
+При обработке следующих пакетов произошли ошибки:
+ puppet-module-puppetlabs-mailalias-core
+
+7[0;32r8[1A[J[1;31mE: [0mSub-process /usr/bin/dpkg returned an error code (1)[0m
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ sudo apt install sharutilshar example1.txt example2.txt > archive.shar
+[?2004lshar: Сохраняется example1.txt (текстовый)
+shar: Сохраняется example2.txt (текстовый)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ sudi[Ko chmod +x archive.shar 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ ./archive.shar 
+[?2004lx - created lock directory _sh16192.
+x - SKIPPING example1.txt (file already exists)
+x - SKIPPING example2.txt (file already exists)
+x - removed lock directory _sh16192.
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/newdir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/newdir[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-15 15:12:35+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,496 @@
+Script started on 2025-04-15 10:26:24+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exitunzip -l arzip1.zipexit[K[Kexitunzip -l arzip1.zipexit[Klsattr task7.txt [8@sudo chattr -i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Plsattr[C[C[C[C[C[C[C[C[C[C[Cexit[Kunzip -l arzip1.zipexit[K[Kmkdir lab5-tasks
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd lab5-tasks/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls /etc > request.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls /usr/bin > letter.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls /var/log > order.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip arzip [K1 request.txt letter.txt 
+[?2004l  adding: request.txt (deflated 51%)
+  adding: letter.txt (deflated 58%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip arzip1.zip order.txt 
+[?2004l  adding: order.txt (deflated 56%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir docs
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ vm[K[Kmv request.txt letter.txt order.txt docs/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip -r arzip1.zip [1P[1@2[C[C[C[C[C d ocs/ 
+[?2004l  adding: docs/ (stored 0%)
+  adding: docs/letter.txt (deflated 58%)
+  adding: docs/order.txt (deflated 56%)
+  adding: docs/request.txt (deflated 51%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip -rq arzip2 f[Kdocs/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip -rq arzip2 docs/[1P[1@9
+[?2004lupdating: docs/ (stored 0%)
+updating: docs/letter.txt (deflated 58%)
+updating: docs/order.txt (deflated 56%)
+updating: docs/request.txt (deflated 51%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip -l arzip1.zip
+[?2004lArchive:  arzip1.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     2415  2025-04-15 10:27   request.txt
+    16441  2025-04-15 10:27   letter.txt
+      867  2025-04-15 10:27   order.txt
+---------                     -------
+    19723                     3 files
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip -l arzip1.zip[1P.zip2.zip
+[?2004lArchive:  arzip2.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2025-04-15 10:28   docs/
+    16441  2025-04-15 10:27   docs/letter.txt
+      867  2025-04-15 10:27   docs/order.txt
+     2415  2025-04-15 10:27   docs/request.txt
+---------                     -------
+    19723                     4 files
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip -t arzip2.zip 
+[?2004lArchive:  arzip2.zip
+    testing: docs/                    OK
+    testing: docs/letter.txt          OK
+    testing: docs/order.txt           OK
+    testing: docs/request.txt         OK
+No errors detected in compressed data of arzip2.zip.
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ head -c 32M /dev/urandom > sample.exe
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ S[Kzip arzip3 sample.exe 
+[?2004l  adding: sample.exe (deflated 0%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ zip -s 64m arzip4 sample.exe 
+[?2004l  adding: sample.exe (deflated 0%)
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir Binary1
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip arzip3.zip -d Binary1/
+[?2004lArchive:  arzip3.zip
+  inflating: Binary1/sample.exe      
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip arzip3.zip -d Binary1/[15Pmkdir Binary1[C[K2
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir Binary2unzip arzip3.zip -d Binary1/[C[C[C[1P/2/[1P[1@3[1P[1@4
+[?2004lArchive:  arzip4.zip
+  inflating: Binary2/sample.exe      
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ rm -rf docs/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip arzip1.zip
+[?2004lArchive:  arzip1.zip
+  inflating: request.txt             
+  inflating: letter.txt              
+  inflating: order.txt               
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ unzip arzip1.zip[4Prm -rf docs/unzip arzip1.zip[1P.zip2.zip
+[?2004lArchive:  arzip2.zip
+   creating: docs/
+  inflating: docs/letter.txt         
+  inflating: docs/order.txt          
+  inflating: docs/request.txt        
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l
+[?2004lитого 98384
+-rw-rw-r-- 1 huskutop huskutop     8894 апр 15 10:28 [0m[01;31marzip1.zip[0m
+-rw-rw-r-- 1 huskutop huskutop     9062 апр 15 10:29 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 huskutop huskutop 33559722 апр 15 10:32 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 huskutop huskutop 33559726 апр 15 10:32 [01;31marzip4.zip[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:33 [01;34mBinary1[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:35 [01;34mBinary2[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:28 [01;34mdocs[0m
+-rw-rw-r-- 1 huskutop huskutop    16441 апр 15 10:27 letter.txt
+-rw-rw-r-- 1 huskutop huskutop      867 апр 15 10:27 order.txt
+-rw-rw-r-- 1 huskutop huskutop     2415 апр 15 10:27 request.txt
+-rw-rw-r-- 1 huskutop huskutop 33554432 апр 15 10:31 sample.exe
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l Binary1/
+[?2004lитого 32768
+-rw-rw-r-- 1 huskutop huskutop 33554432 апр 15 10:31 sample.exe
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l Binary1/[1P/2/
+[?2004lитого 32768
+-rw-rw-r-- 1 huskutop huskutop 33554432 апр 15 10:31 sample.exe
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l Binary2/[C[1P/[1P/[1P/[1P/[1P/[1P/[1P/d/o/c/s/
+[?2004lитого 28
+-rw-rw-r-- 1 huskutop huskutop 16441 апр 15 10:27 letter.txt
+-rw-rw-r-- 1 huskutop huskutop   867 апр 15 10:27 order.txt
+-rw-rw-r-- 1 huskutop huskutop  2415 апр 15 10:27 request.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ gzip request.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ gzip -c order.txt > order.txt [K.gz
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ gunzip -t request.txt.gz 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ gzip -k letter.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ gzip -l letter.txt.gz 
+[?2004l         compressed        uncompressed  ratio uncompressed_name
+               6899               16441  58.2% letter.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdie[Kr gzsamples
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp *.gz gzsamples/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd gzsamples/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/gzsamples[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/gzsamples[00m$ gunzip request.txt.gz 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/gzsamples[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/gzsamples[00m$ ginzip[1Pnzipunzip[C[C[C[C -c order.txt.gz > order.txt.gz [1P [1P [1P 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/gzsamples[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/gzsamples[00m$ gunzip -k letter.txt.gz 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/gzsamples[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/gzsamples[00m$ cd ..
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l 
+[?2004lитого 98400
+-rw-rw-r-- 1 huskutop huskutop     8894 апр 15 10:28 [0m[01;31marzip1.zip[0m
+-rw-rw-r-- 1 huskutop huskutop     9062 апр 15 10:29 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 huskutop huskutop 33559722 апр 15 10:32 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 huskutop huskutop 33559726 апр 15 10:32 [01;31marzip4.zip[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:33 [01;34mBinary1[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:35 [01;34mBinary2[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:28 [01;34mdocs[0m
+drwxrwxr-x 2 huskutop huskutop     4096 апр 15 10:43 [01;34mgzsamples[0m
+-rw-rw-r-- 1 huskutop huskutop    16441 апр 15 10:27 letter.txt
+-rw-rw-r-- 1 huskutop huskutop     6899 апр 15 10:27 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 huskutop huskutop      867 апр 15 10:27 order.txt
+-rw-rw-r-- 1 huskutop huskutop      408 апр 15 10:39 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 huskutop huskutop     1208 апр 15 10:27 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 huskutop huskutop 33554432 апр 15 10:31 sample.exe
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ ls -l gzsamples/
+[?2004lитого 40
+-rw-rw-r-- 1 huskutop huskutop 16441 апр 15 10:41 letter.txt
+-rw-rw-r-- 1 huskutop huskutop  6899 апр 15 10:41 [0m[01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 huskutop huskutop   867 апр 15 10:43 order.txt
+-rw-rw-r-- 1 huskutop huskutop   408 апр 15 10:41 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 huskutop huskutop  2415 апр 15 10:41 request.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp letter.txt letter.txt1.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp order.txt order.txt[C1.txt1.txt[1P.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp order.txt order1.txt[Kcp request.txt.gz [1P [1P [1P [C r equest.txt.gz [1P [1P [1P [1@1
+[?2004lcp: не удалось выполнить stat для 'request.txt': Нет такого файла или каталога
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir request.txt.gz[K[K[K
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir request.txtcp request.txt request1.txt 
+[?2004lcp: не указан -r; пропускается каталог 'request.txt'
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ touch request.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ touch request.txtcp request.txt request1.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cvf artar1.tar request1.txt letter1.txt order1.txt
+[?2004lrequest1.txt
+letter1.txt
+order1.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar arar[K[Ktat[Kr1.tar
+[?2004ltar: Указать можно только один из параметров «-Acdtrux», «--delete» или «--test-label»
+Попробуйте «tar --help» или «tar --usage» для
+получения более подробного описания.
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar artar1.tar[C[C artar1.tar- artar1.tart artar1.tarv artar1.tarf artar1.tar[C artar1.tar
+[?2004l-rw-rw-r-- huskutop/huskutop 0 2025-04-15 10:48 request1.txt
+-rw-rw-r-- huskutop/huskutop 16441 2025-04-15 10:45 letter1.txt
+-rw-rw-r-- huskutop/huskutop   867 2025-04-15 10:45 order1.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo ?[K"НОва[K[K[Kовая строка 1Э[K" >> letter1.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка 1" >> letter1.txt [1P[1@2
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка 2" >> letter1.txt [1P[1@3
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка 3" >> letter1.txt [1P[1P[1P[1P[1P[1P[1@o[1@r[1@d[1@e[1@r[C[C[1P[1@1
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка 1" >> order1.txt [1P[1@2
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка 2" >> order1.txt [1P[1@3
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ nao [K[Kno order1.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;55H(B[0;7m[ Чтение… ](B[m[30;49H(B[0;7m[ Прочитано 82 строки ](B[m[H(B[0;7m  GNU nano 7.2                                           order1.txt                                                     [1;119H(B[m[31d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^W(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция     (B[0;7mM-U(B[m Отмена     (B[0;7mM-A(B[m Установить[32d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке    (B[0;7mM-E(B[m Повтор     (B[0;7mM-6(B[m Копировать[2dalternatives.log[3dalternatives.log.1[4dalternatives.log.2.gz[5dapport.log[6dapport.log.1[7dapt[8dauth.log[9dauth.log.1[10dauth.log.2.gz[11dauth.log.3.gz[12dauth.log.4.gz[13dbookshelf[14dboot.log[15dboot.log.1[16dboot.log.2[17dboot.log.3[18dboot.log.4[19dboot.log.5[20dboot.log.6[21dboot.log.7[22dbootstrap.log[23dbtmp[24dbtmp.1[25dcloud-init.log[26dcloud-init-output.log[27dcups[28dcups-browsed[29ddist-upgrade[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[6d[?25l[30d[K[?12l[?25h[10d[?25l[?12l[?25h[14d[?25l[?12l[?25h[16d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[22d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[2;30r[30;1H
+[1;32r[29;1Hdmesg[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdmesg.0[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hdmesg.1.gz[28ddmesg.2.gz[29ddmesg.3.gz[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdmesg.4.gz[27ddpkg.log[28ddpkg.log.1[29ddpkg.log.2.gz[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Helasticsearch[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hfaillog[28dfontconfig.log[29dgdm3[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgpu-manager.log[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hhp[28dinstaller[29djournal[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hkern.log[27dkern.log.1[28dkern.log.2.gz[29dkern.log.3.gz[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hkern.log.4.gz[27dlastlog[28dmail.log[29dmail.log.1[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hmail.log.2.gz[29dmail.log.3.gz[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hmail.log.4.gz[29dnginx[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hoc_bifrost[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hoc_id[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hopenvpn[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hopscode[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hopscode-erchef[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hpostgresql[28dprivate[29dpuppetlabs[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hpuppetserver[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1HREADME[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hredis_lb[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hsalt[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hspeech-dispatcher[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hsssd[28dsyslog[29dsyslog.1[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsyslog.2.gz[27dsyslog.3.gz[28dsyslog.4.gz[29dsysstat[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hunattended-upgrades[27dwtmp[28dНовая строка 1[29dНовая строка 2[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1HНовая строка 3[29d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[31d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ nano order1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txtl1.txte1.txtt1.txtt1.txte1.txtr1.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;55H(B[0;7m[ Чтение… ](B[m[30;49H(B[0;7m[ Прочитано 1586 строк ](B[m[H(B[0;7m  GNU nano 7.2                                           letter1.txt                                                    [1;119H(B[m[31d(B[0;7m^G(B[m Справка     (B[0;7m^O(B[m Записать    (B[0;7m^W(B[m Поиск[46G(B[0;7m^K(B[m Вырезать    (B[0;7m^T(B[m Выполнить   (B[0;7m^C(B[m Позиция     (B[0;7mM-U(B[m Отмена     (B[0;7mM-A(B[m Установить[32d(B[0;7m^X(B[m Выход[16G(B[0;7m^R(B[m ЧитФайл     (B[0;7m^\(B[m Замена[46G(B[0;7m^U(B[m Вставить    (B[0;7m^J(B[m Выровнять   (B[0;7m^/(B[m К строке    (B[0;7mM-E(B[m Повтор     (B[0;7mM-6(B[m Копировать[2d[[3daa-enabled[4daa-exec[5daa-features-abi[6daconnect[7dacpidbg[8dactivate-global-python-argcomplete[9dadd-apt-repository[10daddpart[11daddr2line[12dairscan-discover[13dalsabat[14dalsaloop[15dalsamixer[16dalsatplg[17dalsaucm[18damidi[19damixer[20dansible[21dansible-community[22dansible-config[23dansible-connection[24dansible-console[25dansible-doc[26dansible-galaxy[27dansible-inventory[28dansible-playbook[29dansible-pull[2d[?12l[?25h[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[18d[?25l[30d[K[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[2;30r[30;1H
+[1;32r[29;1Hansible-test[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hansible-vault[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hapg[28dapgbfm[29daplay[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Haplaymidi[29dapport-bug[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Happort-cli[29dapport-collect[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Happort-unpack[27dappres[28dappstreamcli[29dapropos[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hapt[23dapt-add-repository[24dapt-cache[25dapt-cdrom[26dapt-config[27daptdcon[28dapt-extracttemplates[29dapt-ftparchive[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hapt-get[27dapt-key[28dapt-mark[29dapt-sortpkgs[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Har[27darch[28darecord[29darecordmidi[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Harm2hpdl[27das[28daseqdump[29daseqnet[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Haspell[27daspell-import[28dast[29datobm[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hawk[27daxfer[28db2sum[29dbanner[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hbaobab[28dbase32[29dbase64[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hbasename[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hbasenc[23dbash[24dbashbug[25dbc[26dbdftopcf[27dbdftruncate[28dberks[29dbitmap[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hbluemoon[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hbluetoothctl[28dbluetooth-sendto[29dbmtoa[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hboltctl[27dbpftrace[28dbpftrace-aotrt[29dbrltty[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hbrltty-atb[27dbrltty-clip[28dbrltty-ctb[29dbrltty-hid[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hbrltty-ktb[27dbrltty-lscmds[28dbrltty-morse[29dbrltty-trtxt[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hbrltty-ttb[27dbrltty-tune[28dbroadwayd[29dbrowse[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hbtattach[27dbtmgmt[28dbtmon[29dbundle3.2[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hbundler3.2[27dbusctl[28dbusybox[29dbwrap[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hc89[27dc89-gcc[28dc99[29dc99-gcc[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcalibrate_ppa[27dcanberra-gtk-play[28dcancel[29dcaptoinfo[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hcat[23dcatman[24dcc[25dcd-create-profile[26dcd-fix-profile[27dcd-iccdump[28dcd-it8[29dc++filt[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hchacl[27dchage[28dchardet[29dchardetect[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchattr[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hchcon[28dcheck-language-support[29dchef[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hchef-analyze[27dchef-apply[28dchef-cli[29dchef-client[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hchef-run[27dchef-server-ctl[28dchef-shell[29dchef-solo[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchef-vault[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hchef-workstation-app[28dchef-zero[29dchfn[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchgrp[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchmod[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchoom[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hchown[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hchrt[27dchsh[28dchvt[29dcifsiostat[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hciptool[29dckbcomp[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hcksum[29dclear[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hclear_console[27dcloud-id[28dcloud-init[29dcloud-init-per[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcmp[27dcodepage[28dcol[29dcolcrt[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcolormgr[27dcolrm[28dcolumn[29dcomm[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcookstyle[27dcorelist[28dcp[29dcpan[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcpan5.38-x86_64-linux-gnu[27dcpio[28dcpp[29dcpp-13[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcpupower[27dc_rehash[28dcrontab[29dcsplit[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hctstat[27dcupstestppd[28dcurl[29dcut[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hcvt[27dcvtsudoers[28ddash[29ddate[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdbus-cleanup-sockets[27ddbus-daemon[28ddbus-monitor[29ddbus-run-session[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdbus-send[27ddbus-update-activation-environment[28ddbus-uuidgen[29ddbxtool[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdc[27ddconf[28ddd[29dddstdecode[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdeallocvt[27ddebconf[28ddebconf-apt-progress[29ddebconf-communicate[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdebconf-copydb[27ddebconf-escape[28ddebconf-getlang[29ddebconf-get-selections[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdebconf-loadtemplate[27ddebconf-mergetemplate[28ddebconf-set-selections[29ddebconf-show[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdebian-distro-info[27ddeb-systemd-helper[28ddeb-systemd-invoke[29ddecodemail[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdelivery[27ddelpart[28ddelv[29ddesktop-file-edit[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdesktop-file-install[27ddesktop-file-validate[28ddf[29ddh_bash-completion[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdh_installxmlcatalogs[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hdh_perl_openssl[28ddiff[29ddiff3[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdig[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hdir[28ddircolors[29ddirmngr[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdirmngr-client[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdirname[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdistro-info[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdmesg[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdnsdomainname[27ddomainname[28ddo-release-upgrade[29ddotlock[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hdotlock.mailutils[28ddpkg[29ddpkg-deb[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hdpkg-divert[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdpkg-maintscript-helper[27ddpkg-query[28ddpkg-realpath[29ddpkg-split[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdpkg-statoverride[27ddpkg-trigger[28ddriverless[29ddriverless-fax[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hdu[27ddumpkeys[28ddvipdf[29ddwp[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Heatmydata[23dec2metadata[24decho[25ded[26deditor[27deditres[28degrep[29deject[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Helfedit[27denc2xs[28dencguess[29denchant-2[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Henchant-lsmod-2[27denv[28denvsubst[29deog[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Heps2eps[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Heqn[24derb[25derb3.2[26desc-m[27deutp[28devince[29devince-previewer[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hevince-thumbnailer[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hex[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hexpand[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hexpiry[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hexpr[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hfacter[28dfactor[29dfaillog[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfallocate[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfalse[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hfauxhai[29dfc-cache[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfc-cat[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hfc-conflist[28dfc-list[29dfc-match[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfc-pattern[27dfc-query[28dfc-scan[29dfc-validate[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hfgconsole[23dfgrep[24dfile[25dfile2brl[26dfind[27dfindmnt[28dfirefox[29dflock[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfmt[27dfold[28dfonttosfnt[29dfoo2ddst[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfoo2ddst-wrapper[27dfoo2hbpl2[28dfoo2hbpl2-wrapper[29dfoo2hiperc[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfoo2hiperc-wrapper[27dfoo2hp[28dfoo2hp2600-wrapper[29dfoo2lava[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hfoo2lava-wrapper[23dfoo2oak[24dfoo2oak-wrapper[25dfoo2qpdl[26dfoo2qpdl-wrapper[27dfoo2slx[28dfoo2slx-wrapper[29dfoo2xqx[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfoo2xqx-wrapper[27dfoo2zjs[28dfoo2zjs-icc2ps[29dfoo2zjs-pstops[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfoo2zjs-wrapper[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfoodcritic[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfoomatic-rip[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfprintd-delete[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hfprintd-enroll[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hfprintd-list[28dfprintd-verify[29dfree[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfrm[27dfrm.mailutils[28dfrom[29dfrom.mailutils[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hftp[27dfunzip[28dfuser[29dfusermount[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hfusermount3[27dfwupdmgr[28dfwupdtool[29dgamemoded[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgamma4scanimage[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hgapplication[24dgatttool[25dgcalccmd[26dgcc[27dgcc-13[28dgcc-ar[29dgcc-ar-13[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hgcc-nm[29dgcc-nm-13[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hgcc-ranlib[25dgcc-ranlib-13[26dgcore[27dgcov[28dgcov-13[29dgcov-dump[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgcov-dump-13[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgcov-tool[28dgcov-tool-13[29dgcr-viewer[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hgcr-viewer-gtk4[23dgdb[24dgdb-add-index[25dgdbtui[26dgdbus[27dgdk-pixbuf-csource[28dgdk-pixbuf-pixdata[29dgdk-pixbuf-thumbnailer[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hgdm-config[23dgdmflexiserver[24dgdm-screenshot[25dgem[26dgem3.2[27dgencat[28dgeqn[29dGET[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgetconf[27dgetent[28dgetfacl[29dgetkeycodes[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hgetopt[23dgettext[24dgettext.sh[25dghostscript[26dginstall-info[27dgio[28dgio-querymodules[29dgipddecode[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgit[27dgit-receive-pack[28dgit-shell[29dgit-upload-archive[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgit-upload-pack[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hgjs[24dgjs-console[25dgkbd-keyboard-display[26dglib-compile-schemas[27dgnome-calculator[28dgnome-characters[29dgnome-clocks[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgnome-control-center[27dgnome-disk-image-mounter[28dgnome-disks[29dgnome-extensions[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgnome-font-viewer[27dgnome-help[28dgnome-keyring[29dgnome-keyring-3[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hgnome-keyring-daemon[23dgnome-language-selector[24dgnome-logs[25dgnome-power-statistics[26dgnome-session[27dgnome-session-inhibit[28dgnome-session-properties[29dgnome-session-quit[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgnome-shell[27dgnome-shell-extension-tool[28dgnome-shell-test-tool[29dgnome-system-monitor[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgnome-terminal[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgnome-terminal.real[28dgnome-terminal.wrapper[29dgnome-text-editor[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgnome-thumbnail-font[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgnome-www-browser[28dgold[29dgp-archive[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgpasswd[27dgp-collect-app[28dgp-display-html[29dgp-display-src[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hgp-display-text[26dgpg[27dgpg-agent[28dgpgconf[29dgpg-connect-agent[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgpgparsemail[28dgpgsm[29dgpgsplit[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgpgtar[27dgpgv[28dgpg-wks-client[29dgpic[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hgprof[23dgprofng[24dgpu-manager[25dgrdctl[26dgrep[27dgresource[28dgroff[29dgrog[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgrops[27dgrotty[28dgroups[29dgrowpart[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hgrub-editenv[26dgrub-file[27dgrub-fstest[28dgrub-glue-efi[29dgrub-kbdcomp[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgrub-menulst2cfg[28dgrub-mkfont[29dgrub-mkimage[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgrub-mklayout[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgrub-mknetdir[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgrub-mkpasswd-pbkdf2[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgrub-mkrelpath[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgrub-mkrescue[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hgrub-mkstandalone[24dgrub-mount[25dgrub-ntldr-img[26dgrub-render-label[27dgrub-script-check[28dgrub-syslinux2cfg[29dgs[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgsbj[27dgsdj[28dgsdj500[29dgsettings[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hgslj[26dgslp[27dgsnd[28dgst-device-monitor-1.0[29dgst-discoverer-1.0[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hgst-inspect-1.0[28dgst-launch-1.0[29dgst-play-1.0[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgstreamer-codec-install[27dgst-stats-1.0[28dgst-tester-1.0[29dgst-typefind-1.0[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgtbl[27dgted[28dgtf[29dgtk4-broadwayd[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hgtk4-builder-tool[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hgtk4-encode-symbolic-svg[24dgtk4-launch[25dgtk4-path-tool[26dgtk4-query-settings[27dgtk4-rendernode-tool[28dgtk4-update-icon-cache[29dgtk-builder-tool[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgtk-encode-symbolic-svg[27dgtk-launch[28dgtk-query-settings[29dgtk-update-icon-cache[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hgunzip[27dgzexe[28dgzip[29dh2ph[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hh2xs[27dhab[28dhardlink[29dhbpldecode[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hhciattach[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hhciconfig[28dhcitool[29dhd[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhead[29dHEAD[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hheif-thumbnailer[29dhelpztags[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hhex2hcd[28dhexdump[29dhipercdecode[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hhocon[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hhost[27dhostid[28dhostname[29dhostnamectl[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhp-align[29dhp-check[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhp-clean[29dhp-colorcal[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhp-config_usb_printer[29dhp-doctor[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hhp-firmware[25dhp-info[26dhp-levels[27dhp-logcapture[28dhp-makeuri[29dhp-pkservice[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhp-plugin[29dhp-plugin-ubuntu[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hhp-probe[29dhp-query[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hhp-scan[23dhp-setup[24dhp-testpage[25dhp-timedate[26dhwe-support-status[27di386[28dibus[29dibus-daemon[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hibus-setup[27dibus-table-createdb[28diceauth[29dico[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hiconv[23did[24diecset[25dijs_pxljr[26dim-config[27dim-launch[28dinetutils-telnet[29dinfo[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hinfobrowser[23dinfocmp[24dinfotocap[25dinputattach[26dinspec[27dinstall[28dinstall-info[29dinstmodsh[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hintel-virtual-output[29dionice[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hiostat[25dip[26dipcmk[27dipcrm[28dipcs[29dippfind[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hipptool[23diptables-xml[24dirb[25dirb3.2[26dischroot[27disdv4-serial-debugger[28disdv4-serial-inputattach[29dispell-wrapper[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hjava[23djexec[24djgem[25djirb[26djirb_swing[27djjs[28djoin[29djournalctl[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjpackage[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjpgicc[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjq[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjruby[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjrubyc[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hjsondiff[28djsonpatch[29djson-patch-jsondiff[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hjsonpointer[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hjson_pp[28djsonschema[29dkbdinfo[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hkbd_mode[26dkbxutil[27dkernel-install[28dkerneloops-submit[29dkeytool[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hkill[28dkillall[29dkitchen[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hkmod[27dkmodsign[28dknife[29dl2ping[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hl2test[23dlaptop-detect[24dlast[25dlastb[26dlastlog[27dlavadecode[28dlcf[29dld[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hldapadd[29dldapcompare[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hldapdelete[29dldapexop[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hldapmodify[27dldapmodrdn[28dldappasswd[29dldapsearch[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hldapurl[27dldapwhoami[28dld.bfd[29dldd[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hld.gold[27dld.so[28dless[29dlessecho[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hlessfile[27dlesskey[28dlesspipe[29dlexgrog[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hlibnetcfg[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hlink[24dlinkicc[25dlinux32[26dlinux64[27dlinux-boot-prober[28dlinux-check-removal[29dlinux-update-symlinks[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hlinux-version[23dlistres[24dln[25dlnstat[26dloadkeys[27dloadunimap[28dlocale[29dlocale-check[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hlocalectl[27dlocaledef[28dlogger[29dlogin[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hloginctl[23dlogname[24dlook[25dlowntfs-3g[26dlp[27dlpoptions[28dlpq[29dlpr[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hlprm[23dlpstat[24dls[25dlsattr[26dlsblk[27dlsb_release[28dlscpu[29dlshw[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hlsinitramfs[29dlsipc[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hlslocks[25dlslogins[26dlsmem[27dlsmod[28dlsns[29dlsof[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hlspci[23dlspgpot[24dlspower[25dlsusb[26dlto-dump[27dlto-dump-13[28dlwp-download[29dlwp-dump[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hlwp-mirror[27dlwp-request[28dlzcat[29dlzcmp[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hlzdiff[23dlzegrep[24dlzfgrep[25dlzgrep[26dlzless[27dlzma[28dlzmainfo[29dlzmore[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hm17n-db[23dm2300w[24dm2300w-wrapper[25dm2400w[26dmail[27dmail.mailutils[28dmailq[29dmailx[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hman[23dmandb[24dmanpath[25dman-recode[26dmapscrn[27dmarkdown-it[28dmawk[29dmbimcli[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hmbim-network[27dmcookie[28dmd5sum[29dmd5sum.textutils[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hmdig[29dmemhog[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hmemusage[25dmemusagestat[26dmesa-overlay-control.py[27dmesg[28dmessages[29dmessages.mailutils[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hmigratepages[27dmigrate-pubring-from-classic-gpg[28dmigspeed[29dmimeopen[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hmimetype[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hmimeview[25dmin12xxw[26dmixlib-install[27dmkdir[28dmkfifo[29dmkfontdir[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hmkfontscale[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hmk_modmap[27dmknod[28dmksquashfs[29dmktemp[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hmmcli[27dmonitor-sensor[28dmore[29dmount[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hmountpoint[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hmousetweaks[24dmovemail[25dmovemail.mailutils[26dmpris-proxy[27dmpstat[28dmscompress[29dmsexpand[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hmt[27dmt-gnu[28dmtr[29dmtrace[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hmtr-packet[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hmv[28dnamei[29dnano[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hnautilus[23dnautilus-autorun-software[24dnautilus-sendto[25dnawk[26dnc[27dnc.openbsd[28dneqn[29dnetaddr[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hnetcat[27dnetworkctl[28dnetworkd-dispatcher[29dnewaliases[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hnewgrp[28dngettext[29dnice[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hnisdomainname[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hnl[29dnm[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hnm-applet[29dnmcli[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hnm-connection-editor[27dnm-online[28dnmtui[29dnmtui-connect[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hnmtui-edit[27dnmtui-hostname[28dnohup[29dnotify-send[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hnproc[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hnroff[24dnsenter[25dnslookup[26dnstat[27dnsupdate[28dntfs-3g[29dntfs-3g.probe[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hntfscat[23dntfscluster[24dntfscmp[25dntfsdecrypt[26dntfsfallocate[27dntfsfix[28dntfsinfo[29dntfsls[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hntfsmove[29dntfsrecover[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hntfssecaudit[29dntfstruncate[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hntfsusermap[23dntfswipe[24dnumactl[25dnumastat[26dnumfmt[27dnvidia-detector[28doakdecode[29dobexctl[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hobjcopy[29dobjdump[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hoclock[29dod[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hoem-getlogs[27dohai[28don_ac_power[29doomctl[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hopen[23dopenssl[24dopenvt[25dopldecode[26dorca[27dorca-dm-wrapper[28dos-prober[29dp11-kit[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hpack200[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hpager[28dpaperconf[29dpartx[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpasswd[27dpaste[28dpatch[29dpathchk[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hpdb3[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hpdb3.12[28dpdf2dsc[29dpdf2ps[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpdfattach[27dpdfdetach[28dpdffonts[29dpdfimages[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpdfinfo[27dpdfseparate[28dpdfsig[29dpdftocairo[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpdftohtml[23dpdftoppm[24dpdftops[25dpdftotext[26dpdfunite[27dpeekfd[28dperf[29dperl[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hperl5.38.2[27dperl5.38-x86_64-linux-gnu[28dperlbug[29dperldoc[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hperli11ndoc[27dperlivp[28dperlthanks[29dpf2afm[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpfbtopfa[23dpgrep[24dpic[25dpico[26dpiconv[27dpidof[28dpidstat[29dpidwait[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpinentry[27dpinentry-curses[28dpinentry-gnome3[29dpinentry-x11[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hping[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hping4[24dping6[25dpinky[26dpipewire[27dpipewire-aes67[28dpipewire-avb[29dpipewire-pulse[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpkaction[27dpkcheck[28dpkcon[29dpkexec[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpkill[23dpkmon[24dpkttyagent[25dpl2pm[26dpldd[27dplog[28dplymouth[29dpmap[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpnm2ppa[27dpod2html[28dpod2man[29dpod2text[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpod2usage[23dpodchecker[24dpoff[25dpon[26dPOST[27dpowerprofilesctl[28dppdc[29dppdhtml[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hppdi[29dppdmerge[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hppdpo[29dpphs[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpr[23dprecat[24dpreconv[25dpreunzip[26dprezip[27dprezip-bin[28dprintafm[29dprintenv[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hprinter-profile[28dprintf[29dprivate-chef-ctl[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hprlimit[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hpro[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hprove[28dprtstat[29dps[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hps2ascii[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hps2epsi[28dps2pdf[29dps2pdf12[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hps2pdf13[27dps2pdf14[28dps2pdfwr[29dps2ps[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hps2ps2[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hps2txt[24dpsfaddtable[25dpsfgettable[26dpsfstriptable[27dpsfxtable[28dpsicc[29dpslog[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpstree[27dpstree.x11[28dptar[29dptardiff[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hptargrep[23dptx[24dpuppetserver[25dpw-cat[26dpw-cli[27dpw-config[28dpwd[29dpw-dot[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpw-dsdplay[27dpw-dump[28dpwdx[29dpw-encplay[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hpw-link[28dpw-loopback[29dpw-metadata[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hpw-mididump[26dpw-midiplay[27dpw-midirecord[28dpw-mon[29dpw-play[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hpw-profiler[23dpw-record[24dpw-reserve[25dpw-top[26dpy3clean[27dpy3compile[28dpy3versions[29dpybabel[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpybabel-python3[27dpydoc3[28dpydoc3.12[29dpygettext3[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hpygettext3.12[27dpygmentize[28dpyserial-miniterm[29dpyserial-ports[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hpython3[28dpython3.12[29dpython-argcomplete-check-easy-install-script[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hpzstd[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hqmicli[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hqmi-firmware-update[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hqmi-network[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hqpdldecode[29dquirks-handler[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hracc3.2[28drake[29drake3.2[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hranlib[23drbash[24drbs3.2[25drctest[26drdbg3.2[27drdma[28drdoc[29drdoc3.2[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hreadelf[23dreadlink[24dreadmsg[25dreadmsg.mailutils[26drealpath[27dred[28dregister-python-argcomplete[29drename.ul[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hrendercheck[27drenice[28dreset[29dresizecons[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hresizepart[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hresolvectl[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hrev[28drfcomm[29drgrep[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hri[28dri3.2[29drm[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hrmail[27drmdir[28drmid[29drmiregistry[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hrmsgcat[23drmsgfmt[24drmsginit[25drmsgmerge[26drnano[27droutel[28drpcgen[29drrsync[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hrstart[27drstartd[28drsync[29drsync-ssl[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hrtla[27drtstat[28druby[29druby3.2[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Hruncon[19drun-parts[20drun-with-aspell[21drview[22drvim[23drxgettext[24drygel[25dsadf[26dsalt[27dsalt-call[28dsalt-cp[29dsalt-key[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsalt-master[27dsalt-pip[28dsalt-run[29dsane-find-scanner[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hsar[23dsar.sysstat[24dsavelog[25dsbattach[26dsbkeysync[27dsbsiglist[28dsbsign[29dsbvarsign[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hsbverify[29dscalar[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hscanimage[29dscp[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hscp-dbus-service[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hscreendump[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hscript[29dscriptlive[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hscriptreplay[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hsdiff[29dsdptool[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hseahorse[26dsed[27dselect-default-iwrap[28dselect-editor[29dsensible-browser[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsensible-editor[27dsensible-pager[28dsensible-terminal[29dseq[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hsession-migration[23dsessreg[24dsetarch[25dsetfacl[26dsetfont[27dsetkeycodes[28dsetleds[29dsetlogcons[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hsetmetamode[23dsetpci[24dsetpriv[25dsetsid[26dsetterm[27dsetupcon[28dsetxkbmap[29dsftp[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hsg[23dsh[24dsha1sum[25dsha224sum[26dsha256sum[27dsha384sum[28dsha512sum[29dshasum[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hshowconsolefont[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hshowkey[28dshowrgb[29dshred[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hshuf[27dsieve[28dsize[29dskill[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hslabtop[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hsleep[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hslogin[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hslxdecode[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsmproxy[27dsnap[28dsnapctl[29dsnapfuse[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsnice[27dsoelim[28dsoftware-properties-gtk[29dsort[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hsotruss[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hspa-acp-tool[28dspa-inspect[29dspa-json-dump[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hspa-monitor[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hspa-resample[28dspd-conf[29dspd-say[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hspdsend[27dspeaker-test[28dspeech-dispatcher[29dspice-vdagent[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsplain[27dsplit[28dsplitfont[29dspm[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsprof[27dsqfscat[28dsqfstar[29dss[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hssh[23dssh-add[24dssh-agent[25dssh-argv0[26dssh-copy-id[27dssh-import-id[28dssh-import-id-gh[29dssh-import-id-lp[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hssh-keygen[27dssh-keyscan[28dsshpass[29dsss_ssh_authorizedkeys[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hsss_ssh_knownhostsproxy[29dstartx[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hstat[25dstatic-sh[26dstdbuf[27dstrace[28dstrace-log-merge[29dstreamzip[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hstrings[27dstrip[28dstty[29dsu[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hsudo[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hsudoedit[24dsudoreplay[25dsum[26dswitcherooctl[27dsync[28dsyntax_suggest3.2[29dsystemctl[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsystemd[27dsystemd-ac-power[28dsystemd-analyze[29dsystemd-ask-password[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hsystemd-cat[23dsystemd-cgls[24dsystemd-cgtop[25dsystemd-confext[26dsystemd-creds[27dsystemd-cryptenroll[28dsystemd-cryptsetup[29dsystemd-delta[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Hsystemd-detect-virt[19dsystemd-escape[20dsystemd-firstboot[21dsystemd-hwdb[22dsystemd-id128[23dsystemd-inhibit[24dsystemd-machine-id-setup[25dsystemd-mount[26dsystemd-notify[27dsystemd-path[28dsystemd-repart[29dsystemd-run[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hsystemd-socket-activate[27dsystemd-stdio-bridge[28dsystemd-sysext[29dsystemd-sysusers[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hsystemd-tmpfiles[24dsystemd-tty-ask-password-agent[25dsystemd-umount[26dsysvbanner[27dtabs[28dtac[29dtail[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Htapestat[26dtar[27dtaskset[28dtbl[29dtclsh[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htclsh8.6[27dtcpdump[28dtecla[29dtee[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htelnet[27dtempfile[28dtest[29dthor[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htic[27dtificc[28dtime[29dtimedatectl[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Htimeout[23dtload[24dtnftp[25dtoe[26dtop[27dtouch[28dtput[29dtr[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Htrace-cmd[23dtracepath[24dtracker3[25dtracker3-daemon[26dtracker3-endpoint[27dtracker3-export[28dtracker3-extract[29dtracker3-help[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htracker3-import[27dtracker3-index[28dtracker3-info[29dtracker3-reset[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htracker3-search[27dtracker3-sparql[28dtracker3-sql[29dtracker3-status[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Htracker3-tag[27dtransicc[28dtransset[29dtroff[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Htrue[19dtruncate[20dtrust[21dtset[22dtsort[23dtty[24dturbostat[25dtypeprof3.2[26dtzselect[27dua[28dubuntu-advantage[29dubuntu-bug[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hubuntu-core-launcher[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hubuntu-distro-info[28dubuntu-drivers[29dubuntu-report[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hubuntu-security-status[29ducf[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hucfq[25ducfr[26duclampset[27ducs2any[28dudevadm[29dudisksctl[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hul[28dumax_pp[29dumount[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Huname[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hunattended-upgrade[23dunattended-upgrades[24duncompress[25dunexpand[26dunicode_start[27dunicode_stop[28duniq[29dunity-scope-loader[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hunlink[27dunlzma[28dunmkinitramfs[29dunpack200[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hunshare[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hunsquashfs[28dunxz[29dunzip[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hunzipsfx[26dunzstd[27dupdate-alternatives[28dupdate-desktop-database[29dupdate-manager[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hupdate-mime-database[24dupdate-notifier[25dupdate_rubygems[26dupower[27duptime[28dusb-devices[29dusbhid-dump[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Husbip[29dusbipd[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Husb_printerid[25dusbreset[26dusers[27dutmpdump[28duuidgen[29duuidparse[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hvarlinkctl[27dvcs-run[28dvdir[29dVGAuthService[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Hvi[19dview[20dviewres[21dvim[22dvim.basic[23dvimdiff[24dvim.tiny[25dvimtutor[26dvmhgfs-fuse[27dvmstat[28dvm-support[29dvmtoolsd[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-alias-import[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-checkvm[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmwarectrl[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-hgfsclient[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-namespace-cmd[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-rpctool[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-toolbox-cmd[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hvmware-user[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hvmware-user-suid-wrapper[23dvmware-vgauth-cmd[24dvmware-vmblock-fuse[25dvmware-xferlogs[26dvmwgfxctrl[27dvstp[28dw[29dwall[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hwatch[28dwatchgnupg[29dwc[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hwdctl[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hwget[23dwhatis[24dwhereis[25dwhich[26dwhich.debianutils[27dwhiptail[28dwho[29dwhoami[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hwhoopsie[23dwhoopsie-preferences[24dwireplumber[25dword-list-compress[26dwpa_passphrase[27dwpctl[28dwpexec[29dwrite[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1HX[29dX11[?25l[?12l[?25h7[2;30r8[30d[6S[1;32r[24;1Hx11perf[25dx11perfcomp[26dx86_64[27dx86_64-linux-gnu-addr2line[28dx86_64-linux-gnu-ar[29dx86_64-linux-gnu-as[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hx86_64-linux-gnu-c++filt[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hx86_64-linux-gnu-cpp[28dx86_64-linux-gnu-cpp-13[29dx86_64-linux-gnu-dwp[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Hx86_64-linux-gnu-elfedit[19dx86_64-linux-gnu-gcc[20dx86_64-linux-gnu-gcc-13[21dx86_64-linux-gnu-gcc-ar[22dx86_64-linux-gnu-gcc-ar-13[23dx86_64-linux-gnu-gcc-nm[24dx86_64-linux-gnu-gcc-nm-13[25dx86_64-linux-gnu-gcc-ranlib[26dx86_64-linux-gnu-gcc-ranlib-13[27dx86_64-linux-gnu-gcov[28dx86_64-linux-gnu-gcov-13[29dx86_64-linux-gnu-gcov-dump[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hx86_64-linux-gnu-gcov-dump-13[27dx86_64-linux-gnu-gcov-tool[28dx86_64-linux-gnu-gcov-tool-13[29dx86_64-linux-gnu-gold[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hx86_64-linux-gnu-gp-archive[23dx86_64-linux-gnu-gp-collect-app[24dx86_64-linux-gnu-gp-display-html[25dx86_64-linux-gnu-gp-display-src[26dx86_64-linux-gnu-gp-display-text[27dx86_64-linux-gnu-gprof[28dx86_64-linux-gnu-gprofng[29dx86_64-linux-gnu-ld[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hx86_64-linux-gnu-ld.bfd[27dx86_64-linux-gnu-ld.gold[28dx86_64-linux-gnu-lto-dump[29dx86_64-linux-gnu-lto-dump-13[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hx86_64-linux-gnu-nm[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hx86_64-linux-gnu-objcopy[28dx86_64-linux-gnu-objdump[29dx86_64-linux-gnu-ranlib[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hx86_64-linux-gnu-readelf[23dx86_64-linux-gnu-size[24dx86_64-linux-gnu-strings[25dx86_64-linux-gnu-strip[26dx86_energy_perf_policy[27dxargs[28dxauth[29dxbiff[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hxbrlapi[27dxcalc[28dxclipboard[29dxclock[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hxcmsdb[27dxconsole[28dxcursorgen[29dxcutsel[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-dbus-proxy[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-desktop-icon[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-desktop-menu[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-email[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-icon-resource[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-mime[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hxdg-open[29dxdg-screensaver[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hxdg-settings[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hxdg-user-dir[24dxdg-user-dirs-gtk-update[25dxdg-user-dirs-update[26dxditview[27dxdpyinfo[28dxdriinfo[29dxedit[?25l[?12l[?25h7[2;30r8[30d[12S[1;32r[18;1Hxelfviewer[19dXephyr[20dxev[21dxeyes[22dxfd[23dxfontsel[24dxgamma[25dxgc[26dxhost[27dxinit[28dxinput[29dxkbbell[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hxkbcomp[23dxkbevd[24dxkbprint[25dxkbvleds[26dxkbwatch[27dxkeystone[28dxkill[29dxload[?25l[?12l[?25h7[2;30r8[30d[5S[1;32r[25;1Hxlogo[26dxlsatoms[27dxlsclients[28dxlsfonts[29dxmag[?25l[?12l[?25h7[2;30r8[30d[3S[1;32r[27;1Hxman[28dxmessage[29dxmodmap[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hxmore[24dXorg[25dxprop[26dxqxdecode[27dxrandr[28dxrdb[29dxrefresh[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hx-session-manager[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hxset[27dxsetmode[28dxsetpointer[29dxsetroot[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hxsetwacom[27dxsm[28dxstdcmap[29dxsubpp[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hx-terminal-emulator[23dxvidtune[24dxvinfo[25dXwayland[26dxwd[27dxwininfo[28dxwud[29dx-www-browser[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hxxd[29dxz[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1Hxzcat[29dxzcmp[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hxzdiff[23dxzegrep[24dxzfgrep[25dxzgrep[26dxzless[27dxzmore[28dyelp[29dyes[?25l[?12l[?25h7[2;30r8[30d
+[1;32r[29;1Hypdomainname[?25l[?12l[?25h7[2;30r8[30d[7S[1;32r[23;1Hzcat[24dzcmp[25dzdiff[26dzdump[27dzegrep[28dzenity[29dzfgrep[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hzforce[27dzgrep[28dzip[29dzipcloak[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hzipdetails[27dzipgrep[28dzipinfo[29dzipnote[?25l[?12l[?25h7[2;30r8[30d[4S[1;32r[26;1Hzipsplit[27dzjsdecode[28dzless[29dzmore[?25l[?12l[?25h7[2;30r8[30d[8S[1;32r[22;1Hznew[23dzstd[24dzstdcat[25dzstdgrep[26dzstdless[27dzstdmt[28dНовая строка 1[29dНовая строка 2[?25l[?12l[?25h7[2;30r8[30d[2S[1;32r[28;1HНовая строка 3[29d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[31d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -uvf artar1.tar letter1.txt order1.txt 
+[?2004lletter1.txt
+order1.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp letter.txt lr[Ketter2.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp letter.txt letter2.txt[Kcp order.txt order2.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp order.txt order2.txt[Kcp request.txt request2.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cvf r[Kartar2.tar request2.txt letter2.txt order2.txt 
+[?2004lrequest2.txt
+letter2.txt
+order2.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ -Af artar1.tar artar2.tar[1@t[1@a[1@r[1@ 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -tvf artar1.tar
+[?2004l-rw-rw-r-- huskutop/huskutop 0 2025-04-15 10:48 request1.txt
+-rw-rw-r-- huskutop/huskutop 16441 2025-04-15 10:45 letter1.txt
+-rw-rw-r-- huskutop/huskutop   867 2025-04-15 10:45 order1.txt
+-rw-rw-r-- huskutop/huskutop 16519 2025-04-15 10:51 letter1.txt
+-rw-rw-r-- huskutop/huskutop   945 2025-04-15 10:51 order1.txt
+-rw-rw-r-- huskutop/huskutop     0 2025-04-15 10:53 request2.txt
+-rw-rw-r-- huskutop/huskutop 16441 2025-04-15 10:53 letter2.txt
+-rw-rw-r-- huskutop/huskutop   867 2025-04-15 10:53 order2.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp letter.txt letter3.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp order.txt order3.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp request.txt request3.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cvpf arat[K[Ktar2[K3.tar request3.txt letter3.txt order3.txt 
+[?2004lrequest3.txt
+letter3.txt
+order3.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ su student
+[?2004lПароль: 
+bash: groups: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;student@huskutop: /home/huskutop/lab5-tasks[01;32mstudent@huskutop[00m:[01;34m/home/huskutop/lab5-tasks[00m$ /bin/cp r[Kartar3.tar /home/student/artar3/tar[K[K[K[K.tar
+[?2004l[?2004h]0;student@huskutop: /home/huskutop/lab5-tasks[01;32mstudent@huskutop[00m:[01;34m/home/huskutop/lab5-tasks[00m$ cd /home/student/
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ tar [1@b[1P[1@/[1@b[1@i[1@n[1@/[C[C[C[C - x v p f [C a t [1P r a t [1P [1P t a r 3 / [1P [1P 3 . t a r 
+[?2004lrequest3.txt
+letter3.txt
+order3.txt
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ /bin/tar -xvpf artar3.tar [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/bin/ls -l
+[?2004lитого 44
+-rw-rw-r-- 1 student student 20480 апр 15 10:59 artar3.tar
+-rw-rw-r-- 1 student student 16441 апр 15 10:56 letter3.txt
+-rw-rw-r-- 1 student student   867 апр 15 10:56 order3.txt
+-rw-rw-r-- 1 student student     0 апр 15 10:56 request3.txt
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cvzf aratr4[1Pr4[1Pr4tr4ar4[C[C.tar.gz request4/[K.txt letter4.txt order4.txt
+[?2004ltar: request4.txt: Функция stat завершилась с ошибкой: Нет такого файла или каталога
+tar: letter4.txt: Функция stat завершилась с ошибкой: Нет такого файла или каталога
+tar: order4.txt: Функция stat завершилась с ошибкой: Нет такого файла или каталога
+tar: Завершение работы с состоянием неисправности из-за возникших ошибок
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu student[Ktar -cvpf artar3.tar request3.txt letter3.txt order3.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pcp request.txt request3.txt[4Porder.txt order3.txtrequest.txt request3.txt[1P.txt4.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp request.txt request4.txttar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu student[Ktar -cvpf artar3.tar request3.txt letter3.txt order3.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pcp request.txt request3.txt[4Porder.txt order3.txt[1P.txt4.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp order.txt order4.txtrequest.txt request4.txttar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu student[Ktar -cvpf artar3.tar request3.txt letter3.txt order3.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pcp request.txt request3.txt[4Porder.txt order3.txtletter.txt letter3.txt[6Ptar -tvf artar1.tarcp letter.txt letter3.txt[1P.txt4.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp letter.txt letter4.txt[2Porder.txt order4.txtrequest.txt request4.txttar -cvzf artar4.tar.gz request4.txt letter4.txt order4.txt
+[?2004lrequest4.txt
+letter4.txt
+order4.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir tar_dir
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp artar4.tar.gz tar_dir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -tzvf tar_dir/artar4/[K.tar.gz 
+[?2004l-rw-rw-r-- huskutop/huskutop 0 2025-04-15 11:03 request4.txt
+-rw-rw-r-- huskutop/huskutop 16441 2025-04-15 11:03 letter4.txt
+-rw-rw-r-- huskutop/huskutop   867 2025-04-15 11:03 order4.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd tar_dir/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/tar_dir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/tar_dir[00m$ tar -xvzf atra[K[K[Kratr[K[K[Ktar4.tar.gz
+[?2004lrequest4.txt
+letter4.txt
+order4.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/tar_dir[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/tar_dir[00m$ cd //[K[K..
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdie[Kr tar_dir2
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -xvzf tar_dir_[K?[K/artar4.tar.dz[K[Kgz -C tar_dir2
+[?2004lrequest4.txt
+letter4.txt
+order4.txt
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ su student
+[?2004lПароль: 
+bash: groups: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;student@huskutop: /home/huskutop[01;32mstudent@huskutop[00m:[01;34m/home/huskutop[00m$ cd
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ mkdir -p docs/guides
+[?2004lКоманда 'mkdir' доступна в следующих местах
+ * /bin/mkdir
+ * /usr/bin/mkdir
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+mkdir: команда не найдена
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ mkdir -p docs/guides[1@/[1@b[1@i[1@n[1@/
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ /bin/mkdir -p docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd /dev/[K[K[Kocs/guides[C[1Pdocs/guides[C[C[C[C[C[C[C[C[C[C[C/
+[?2004l[?2004h]0;student@huskutop: ~/docs/guides[01;32mstudent@huskutop[00m:[01;34m~/docs/guides[00m$ /bin/toich[K[K[Kuch f1.docx f2.txt f3.pdf
+[?2004l[?2004h]0;student@huskutop: ~/docs/guides[01;32mstudent@huskutop[00m:[01;34m~/docs/guides[00m$ /bin/mkdir mydocs
+[?2004l[?2004h]0;student@huskutop: ~/docs/guides[01;32mstudent@huskutop[00m:[01;34m~/docs/guides[00m$ cd mydocs/
+[?2004l[?2004h]0;student@huskutop: ~/docs/guides/mydocs[01;32mstudent@huskutop[00m:[01;34m~/docs/guides/mydocs[00m$ cd mydocs/[Kcd mydocs//bin/mkdir mydocstouch f1.docx f2.txt f3.pdf[17Pcd docs/guides//bin/touch f1.docx f2.txt f3.pdf[1P[1@4[C[C[C[C[C[C[C[C[C[1P[1@5[C[C[C[C[C[C[C[1P.pdf6.pdf
+[?2004l[?2004h]0;student@huskutop: ~/docs/guides/mydocs[01;32mstudent@huskutop[00m:[01;34m~/docs/guides/mydocs[00m$ /bin/tar -cvf guides.tar --exclude="mydocs" docs/guides
+[?2004l/bin/tar: docs/guides: Функция stat завершилась с ошибкой: Нет такого файла или каталога
+/bin/tar: Завершение работы с состоянием неисправности из-за возникших ошибок
+[?2004h]0;student@huskutop: ~/docs/guides/mydocs[01;32mstudent@huskutop[00m:[01;34m~/docs/guides/mydocs[00m$ cd
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ cd/bin/tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K/bin/tar -cvf guides.tar --exclude="mydocs" docs/guides
+[?2004ldocs/guides/
+docs/guides/f1.docx
+docs/guides/f2.txt
+docs/guides/f3.pdf
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ gzip/gzipbgzipigzipngzip/gzip[C[C[C[C guКоманда 'grep' доступна в следующих местах
+ * /bin/grep
+ * /usr/bin/grep
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+grep: команда не найдена
+ides.tar tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgzip guides.tar [Ktar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K/bin/tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K/bin/tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K[K[K
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ /bin/tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/bin/tar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/bin/dzip [K[K[K[K[Kgzip guides.tar
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ /bin/gzip guides.tartar -cvf guides.tar --exclude="mydocs" docs/guides[C[C[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1P docs/guides[1Pdocs/guides
+[?2004ldocs/guides/
+docs/guides/f1.docx
+docs/guides/f2.txt
+docs/guides/mydocs/
+docs/guides/mydocs/f4.docx
+docs/guides/mydocs/guides.tar
+docs/guides/mydocs/f6.pdf
+docs/guides/mydocs/f5.txt
+docs/guides/f3.pdf
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ /bin/tar -cvf guides.tar docs/guides[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgzip guides.tar[C
+[?2004lgzip: guides.tar.gz already exists; do you wish to overwrite (y or n)? y
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd lab5-tasks/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir example-xz
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd example-xz/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ dd if-[K=/dev/urandom of=f1.txt bs-[K=1M COUNT[K[K[K[K[Kcount=10
+[?2004l10+0 записей получено
+10+0 записей отправлено
+10485760 байтов (10 MB, 10 MiB) скопировано, 0,033911 s, 309 MB/s
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ dd if=/dev/urandom of=f1.txt bs=1M count=10[1P[1@2
+[?2004l10+0 записей получено
+10+0 записей отправлено
+10485760 байтов (10 MB, 10 MiB) скопировано, 0,0447584 s, 234 MB/s
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ dd if=/dev/urandom of=f2.txt bs=1M count=10[C[K[K20[C[1P[1@2[C[1P[1@3[C[C[C[C[1P[1P[1P[1@d[1@o[1@c
+[?2004l20+0 записей получено
+20+0 записей отправлено
+20971520 байтов (21 MB, 20 MiB) скопировано, 0,0729186 s, 288 MB/s
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ dd if=/dev/urandom of=f3.doc bs=1M count=20[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K10
+[?2004l10+0 записей получено
+10+0 записей отправлено
+10485760 байтов (10 MB, 10 MiB) скопировано, 0,0429084 s, 244 MB/s
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ cd ??[K[K//[K[K..
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ xz -k example-xz/f1.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cf = example-xz/ | xz > example-xz/[K.tar.xz
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ tar -cf - example-xz/ | xz -T3 > example-xz-the[K[Khreaded.tar.xz
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ S[Ktar -cf - example-xz/ | xz -T3 > example-xz-threaded.tar.xz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13P= example-xz/ | xz > example-xz.tar.xz[1P[1@-[C[C[C[C[C[C[C[C[C[C[C[C[1@*[1@.[1@d[1@o[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-.tar.xzd.tar.xzo.tar.xzc.tar.xzs.tar.xz
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd example-xz/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -tf example-xz-docs.tar.xz
+[?2004ltar: example-xz-docs.tar.xz: Функция open завершилась с ошибкой: Нет такого файла или каталога
+tar: Error is not recoverable: exiting now
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -tf example-xz-docs.tar.xz
+[?2004lexample-xz/f3.doc
+example-xz/f4.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ ls
+[?2004l[0m[01;31mexample-xz-docs.tar.xz[0m  f1.txt  [01;31mf1.txt.xz[0m  f2.txt  f3.doc  f4.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ ls
+[?2004l[0m[01;31mexample-xz-docs.tar.xz[0m  [01;31mexample-xz.tar.xz[0m  [01;31mexample-xz-threaded.tar.xz[0m  f1.txt  [01;31mf1.txt.xz[0m  f2.txt  f3.doc  f4.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [K]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ xz -d example-xz-docs.tar.xz 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ ls
+[?2004l[0m[01;31mexample-xz-docs.tar[0m  [01;31mexample-xz-threaded.tar.xz[0m  [01;31mf1.txt.xz[0m  f3.doc
+[01;31mexample-xz.tar.xz[0m    f1.txt                      f2.txt     f4.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -xf w[Kexample-xz-docs.tar example-xz/f3.doc 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ at[K[Ktar -cg[Kf - example-xz | xz > example-xz.tar.xz 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -cf [K[K[K[K[K[K[K[Ktar -cf - example-xz | xz > example-xz.tar.xz [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-> exa[1@m[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9> ex[1@a[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > e[1@x[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cf - example-xz | xz -9 > example-xz.tar.xz [C[1@-[1@h[1@i[1@g[1@h
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -cf - example-xz | xz -9 > example-xz-high.tar.xz [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ex[1P[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT > e[1@x[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 > [1@e[A]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -cf - example-xz | xz -T2 > example-xz-high.tar.xz [C[1P[1P[1P[1P[1@m[1@u[1@l[1@t[1@i
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ tar -tf example-xz.tar.xz 
+[?2004lexample-xz/
+example-xz/f3.doc
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks/example-xz[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks/example-xz[00m$ cd??[K[K >>[K[K..
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ mkdir rsync-backup temp
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cp request.txt letter.txt order.txt rsync-backup/
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ rsync -av rsync-backup/ temp/
+[?2004lsending incremental file list
+./
+letter.txt
+order.txt
+request.txt
+
+sent 17.568 bytes  received 76 bytes  35.288,00 bytes/sec
+total size is 17.308  speedup is 0,98
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ echo "Новая строка" >> rsync-backup/letter.txt 
+[?2004l[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ rsync -av rsync-backup/ temp/
+[?2004lsending incremental file list
+letter.txt
+
+sent 16.648 bytes  received 35 bytes  33.366,00 bytes/sec
+total size is 17.332  speedup is 1,04
+[?2004h]0;huskutop@huskutop: ~/lab5-tasks[01;32mhuskutop@huskutop[00m:[01;34m~/lab5-tasks[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-15 11:45:49+03:00 [COMMAND_EXIT_CODE="0"]
