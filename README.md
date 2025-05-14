@@ -20,3 +20,7 @@
 
 [Ссылка на отчёт](https://disk.yandex.ru/d/1SoFfr_6hCn2Gw)
 
+## Лабораторная работа №5
+
+[Ссылка на отчёт](https://disk.yandex.by/d/tk8c5T-zNKMN2Q)
+
