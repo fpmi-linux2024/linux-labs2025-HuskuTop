@@ -1,0 +1,663 @@
+Script started on 2025-05-31 12:17:14+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo -e "1111|[K\n\n22222/[K\n33333\n\n44444\\44444\n44444\[C[C[C[C[C[Cn55555\n\n6666".[K>di rlia[Kst.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ tac dirlist.txt 
+[?2004l6666
+
+55555
+44444
+
+
+33333
+22222
+
+1111
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat -n dirlist.txt 
+[?2004l     1	1111
+     2	
+     3	22222
+     4	33333
+     5	
+     6	
+     7	44444
+     8	55555
+     9	
+    10	6666
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ nl dirlist.txt 
+[?2004l     1	1111
+       
+     2	22222
+     3	33333
+       
+       
+     4	44444
+     5	55555
+       
+     6	6666
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat -s dirlist.txt 
+[?2004l1111
+
+22222
+33333
+
+44444
+55555
+
+6666
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat /home
+[?2004lcat: /home: Это каталог
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ more /home/
+[?2004l
+*** /home/: каталог ***
+
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls/[K /home/
+[?2004l[0m[01;34mguest[0m  [01;34mhuskutop[0m  [01;34mnewuser[0m  [01;34ms1[0m  [01;34mstudent[0m  [01;34mvisitor[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls ~
+[?2004l [0m[01;34m1[0m                                          file_list.txt              [01;34msnap[0m                  [01;34mВидео[0m
+ admin.pem                                  install_nginx_ubuntu.yml   task2yakubovich.txt   [01;34mДокументы[0m
+ back,                                      install_nginx.yml          tetx.txt              [01;34mЗагрузки[0m
+ [01;34mchef-repo[0m                                  inventory.ini              timelog2yakubovich    [01;34mИзображения[0m
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       [01;34mlabrabota4[0m                 users.txt             [01;34mМузыка[0m
+ chef-server-core_14.14.1-1_amd64.deb.1     [01;34mlinux-labs[0m                 validator.pem         [01;34mОбщедоступные[0m
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     [01;32mls[0m                        'visitor!'            [01;34m'Рабочий стол'[0m
+ chef-workstation_23.7.1042-1_amd64.deb.1   ls_log.txt                 Welcome               [01;34mШаблоны[0m
+ dirlist.txt                                mkdir_log                  wordscount.txt
+ [01;34mdocs[0m                                       mkdir_log.txt              [01;34myakubovich[0m
+ [01;34mexample9[0m                                   [01;34mnginx_cookbook[0m             yakubovich.c
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ basename $HOME
+[?2004lhuskutop
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ basename $(dirname $HOME)
+[?2004lhome
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo~[K ~
+[?2004l/home/huskutop
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd /[K[K[K[K/home
+[?2004lbash: /home: Это каталог
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ /homec/homed/home /home
+[?2004l[?2004h]0;huskutop@huskutop: /home[01;32mhuskutop@huskutop[00m:[01;34m/home[00m$ pwd
+[?2004l/home
+[?2004h]0;huskutop@huskutop: /home[01;32mhuskutop@huskutop[00m:[01;34m/home[00m$ ls -R
+[?2004l.:
+[0m[01;34mguest[0m  [01;34mhuskutop[0m  [01;34mnewuser[0m  [01;34ms1[0m  [01;34mstudent[0m  [01;34mvisitor[0m
+
+./guest:
+
+./huskutop:
+ [01;34m1[0m                                          file_list.txt              [01;34msnap[0m                  [01;34mВидео[0m
+ admin.pem                                  install_nginx_ubuntu.yml   task2yakubovich.txt   [01;34mДокументы[0m
+ back,                                      install_nginx.yml          tetx.txt              [01;34mЗагрузки[0m
+ [01;34mchef-repo[0m                                  inventory.ini              timelog2yakubovich    [01;34mИзображения[0m
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       [01;34mlabrabota4[0m                 users.txt             [01;34mМузыка[0m
+ chef-server-core_14.14.1-1_amd64.deb.1     [01;34mlinux-labs[0m                 validator.pem         [01;34mОбщедоступные[0m
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     [01;32mls[0m                        'visitor!'            [01;34m'Рабочий стол'[0m
+ chef-workstation_23.7.1042-1_amd64.deb.1   ls_log.txt                 Welcome               [01;34mШаблоны[0m
+ dirlist.txt                                mkdir_log                  wordscount.txt
+ [01;34mdocs[0m                                       mkdir_log.txt              [01;34myakubovich[0m
+ [01;34mexample9[0m                                   [01;34mnginx_cookbook[0m             yakubovich.c
+
+./huskutop/1:
+letter1.txt  letter2.txt  order1.txt  order2.txt  request1.txt  request2.txt
+
+./huskutop/chef-repo:
+chefignore  [01;34mcookbooks[0m  [01;34mdata_bags[0m  LICENSE  [01;34mpolicyfiles[0m  README.md
+
+./huskutop/chef-repo/cookbooks:
+[01;34mexample[0m  [01;36mnginx_cookbook[0m  README.md
+
+./huskutop/chef-repo/cookbooks/example:
+[01;34mattributes[0m  metadata.rb  README.md  [01;34mrecipes[0m
+
+./huskutop/chef-repo/cookbooks/example/attributes:
+default.rb
+
+./huskutop/chef-repo/cookbooks/example/recipes:
+default.rb
+
+./huskutop/chef-repo/data_bags:
+[01;34mexample[0m  README.md
+
+./huskutop/chef-repo/data_bags/example:
+example_item.json
+
+./huskutop/chef-repo/policyfiles:
+README.md
+
+./huskutop/docs:
+
+./huskutop/example9:
+a.txt  c.txt  e.txt          f.txt  h.txt  j.txt          task2yakubovich.txt  users.txt
+b.txt  d.txt  file_list.txt  g.txt  i.txt  mkdir_log.txt  tetx.txt
+
+./huskutop/labrabota4:
+[01;36mrequest.bak[0m  task7.txt  [01;36mwork[0m  [01;34mworkdir[0m
+
+./huskutop/labrabota4/workdir:
+big.txt  req.txt  [00;90mrequest.bak[0m  request.txt
+
+./huskutop/linux-labs:
+[01;34mlab1[0m  [01;34mlab2[0m  [01;34mlab3[0m  [01;34mlab4[0m  [01;34mlab5[0m  [01;34mlab6[0m  README.md
+
+./huskutop/linux-labs/lab1:
+task5yakubovich.txt  task6yakubovich.txt  timelog5yakubovich  timelog6yakubovich
+
+./huskutop/linux-labs/lab2:
+task3yakubovich.txt  timelog3yakubovich
+
+./huskutop/linux-labs/lab3:
+task2yakubovich.txt  timelog2yakubovich
+
+./huskutop/linux-labs/lab4:
+task1yakubovich.txt  task5yakubovich.txt  timelog1yakubovich  timelog5yakubovich
+task2yakubovich.txt  task6yakubovich.txt  timelog2yakubovich  timelog6yakubovich
+task3yakubovich.txt  task7yakubovich.txt  timelog3yakubovich  timelog7yakubovich
+task4yakubovich.txt  task8yakubovich.txt  timelog4yakubovich  timelog8yakubovich
+
+./huskutop/linux-labs/lab5:
+task1yakubovich.txt  task2yakubovich.txt  timelog1yakubovich  timelog2yakubovich
+
+./huskutop/linux-labs/lab6:
+task2yakubovich.txt  timelog2yakubovich
+
+./huskutop/nginx_cookbook:
+[01;34mattributes[0m    chefignore  kitchen.yml  metadata.rb    README.md  [01;34mtemplates[0m
+CHANGELOG.md  [01;34mcompliance[0m  LICENSE      Policyfile.rb  [01;34mrecipes[0m    [01;34mtest[0m
+
+./huskutop/nginx_cookbook/attributes:
+default.rb
+
+./huskutop/nginx_cookbook/compliance:
+[01;34minputs[0m  [01;34mprofiles[0m  README.md  [01;34mwaivers[0m
+
+./huskutop/nginx_cookbook/compliance/inputs:
+
+./huskutop/nginx_cookbook/compliance/profiles:
+
+./huskutop/nginx_cookbook/compliance/waivers:
+
+./huskutop/nginx_cookbook/recipes:
+default.rb
+
+./huskutop/nginx_cookbook/templates:
+[01;34mdefault[0m
+
+./huskutop/nginx_cookbook/templates/default:
+nginx.conf.erb
+
+./huskutop/nginx_cookbook/test:
+[01;34mintegration[0m
+
+./huskutop/nginx_cookbook/test/integration:
+[01;34mdefault[0m
+
+./huskutop/nginx_cookbook/test/integration/default:
+default_test.rb
+
+./huskutop/snap:
+[01;34mfirefox[0m  [01;34mfirmware-updater[0m  [01;34msnapd-desktop-integration[0m  [01;34msnap-store[0m
+
+./huskutop/snap/firefox:
+[01;34m6227[0m  [01;34m6259[0m  [01;34mcommon[0m  [40;31;01mcurrent[0m
+
+./huskutop/snap/firefox/6227:
+
+./huskutop/snap/firefox/6259:
+
+./huskutop/snap/firefox/common:
+
+./huskutop/snap/firmware-updater:
+[01;34m127[0m  [01;34m167[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+./huskutop/snap/firmware-updater/127:
+
+./huskutop/snap/firmware-updater/167:
+
+./huskutop/snap/firmware-updater/common:
+
+./huskutop/snap/snapd-desktop-integration:
+[01;34m178[0m  [01;34m253[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+./huskutop/snap/snapd-desktop-integration/178:
+
+./huskutop/snap/snapd-desktop-integration/253:
+
+./huskutop/snap/snapd-desktop-integration/common:
+
+./huskutop/snap/snap-store:
+[01;34m1248[0m  [01;34m1270[0m  [01;34mcommon[0m  [01;36mcurrent[0m
+
+./huskutop/snap/snap-store/1248:
+
+./huskutop/snap/snap-store/1270:
+
+./huskutop/snap/snap-store/common:
+
+./huskutop/yakubovich:
+task6yakubovich.txt  timelog6yakubovich
+
+./huskutop/Видео:
+
+./huskutop/Документы:
+
+./huskutop/Загрузки:
+ЛабРабота2Linux2024-2025.pdf
+
+./huskutop/Изображения:
+
+./huskutop/Музыка:
+
+./huskutop/Общедоступные:
+
+'./huskutop/Рабочий стол':
+
+./huskutop/Шаблоны:
+ls: невозможно открыть каталог './newuser': Отказано в доступе
+ls: невозможно открыть каталог './s1': Отказано в доступе
+ls: невозможно открыть каталог './student': Отказано в доступе
+ls: невозможно открыть каталог './visitor': Отказано в доступе
+[?2004h]0;huskutop@huskutop: /home[01;32mhuskutop@huskutop[00m:[01;34m/home[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruiuts[K[K[K[Kits/apple/ fruits-[K/pear fruits/grape/dark fruits/grape/greea[Kn[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[K[A[K]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p fruits/apple/ fruits/pear fruits/grape/dark fruits/grape/green[C[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cml[Kkdyr[K[Kir3 [K[K -p flowers\[K/rose flowers/violet flowers/dandelion
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls fruits/
+[?2004l[0m[01;34mapple[0m  [01;34mgrape[0m  [01;34mpear[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls flowers/
+[?2004l[0m[01;34mdandelion[0m  [01;34mrose[0m  [01;34mviolet[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -p A/B/C/D A/E
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -r[KR /A
+[?2004lls: невозможно получить доступ к '/A': Нет такого файла или каталога
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -R /A[1PA
+[?2004lA:
+[0m[01;34mB[0m  [01;34mE[0m
+
+A/B:
+[01;34mC[0m
+
+A/B/C:
+[01;34mD[0m
+
+A/B/C/D:
+
+A/E:
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm -r A/*
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm -r A/*[C[C[C[K[K[1P A[1P A[1PA[1P A[1P Al As A
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls A[C A- AR A[C A[1PA
+[?2004lA:
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ touch file
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ touch fruits/apple/macintosh fruits/grape/dark/file1 fruits/ grape/green/file2
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -R fri[Kuits/
+[?2004lfruits/:
+[0m[01;34mapple[0m  [01;34mgrape[0m  [01;34mpear[0m
+
+fruits/apple:
+macintosh
+
+fruits/grape:
+[01;34mdark[0m  [01;34mgreen[0m
+
+fruits/grape/dark:
+file1
+
+fruits/grape/green:
+file2
+
+fruits/pear:
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir basket
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd flowers/
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cp -r ~?[K/fri[Kuits/ ~/basket/
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ ls ~/basket/fruits/
+[?2004l[0m[01;34mapple[0m  [01;34mgrape[0m  [01;34mpear[0m
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ rm -r ~/r[Kfruits/
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ ls ~
+[?2004l [0m[01;34m1[0m                                          mkdir_log
+ [01;34mA[0m                                          mkdir_log.txt
+ admin.pem                                  [01;34mnginx_cookbook[0m
+ back,                                      [01;34msnap[0m
+ [01;34mbasket[0m                                     task2yakubovich.txt
+ [01;34mchef-repo[0m                                  tetx.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       timelog2yakubovich
+ chef-server-core_14.14.1-1_amd64.deb.1     users.txt
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     validator.pem
+ chef-workstation_23.7.1042-1_amd64.deb.1  'visitor!'
+ dirlist.txt                                Welcome
+ [01;34mdocs[0m                                       wordscount.txt
+ [01;34mexample9[0m                                   [01;34myakubovich[0m
+ file                                       yakubovich.c
+ file_list.txt                              [01;34mВидео[0m
+ [01;34mflowers[0m                                    [01;34mДокументы[0m
+ install_nginx_ubuntu.yml                   [01;34mЗагрузки[0m
+ install_nginx.yml                          [01;34mИзображения[0m
+ inventory.ini                              [01;34mМузыка[0m
+ [01;34mlabrabota4[0m                                 [01;34mОбщедоступные[0m
+ [01;34mlinux-labs[0m                                [01;34m'Рабочий стол'[0m
+ [01;32mls[0m                                         [01;34mШаблоны[0m
+ ls_log.txt
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cat ~/.profile 
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ more ~/.profile 
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+[7m--Далее--(79%)[27m    PATH="$HOME/bin:$PATH"
+[7m--Далее--(83%)[27mfi[K
+[7m--Далее--(83%)[27m[K
+[7m--Далее--(83%)[27m# set PATH so it includes user's private bin if it exists
+[7m--Далее--(90%)[27mif [ -d "$HOME/.local/bin" ] ; then
+[7m--Далее--(95%)[27m    PATH="$HOME/.local/bin:$PATH"
+[7m--Далее--(99%)[27mfi[K
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cp ~/.profile ~/myfile
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cat ~/.[Kmyfile 
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cp ~/myfile ~/mycope[Ky
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cp ~/myfile ~/mycopy[7Pat ~/myfile p ~/.profile ~/myfile[9Pat ~/myfile p ~/myfile ~/mycopy[7Pat ~/myfile [1P [1P [1P [1P c o p e [1P y 
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ rm ~/myfile 
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cat [K[K[K[Krm ~/myfile [1@cat ~/mycopy[C
+[?2004l# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ mv ~/mycopy ~/flowers/
+[?2004l[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ ls
+[?2004l[0m[01;34mdandelion[0m  mycopy  [01;34mrose[0m  [01;34mviolet[0m
+[?2004h]0;huskutop@huskutop: ~/flowers[01;32mhuskutop@huskutop[00m:[01;34m~/flowers[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd task19
+[?2004lbash: cd: task19: Нет такого файла или каталога
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir task 1[K[K19
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir task19[3Pcd[C[C[C[C[C[C[C
+[?2004l[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ touch aaa ab.a ac.a ad.a aaab
+[?2004l[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls
+[?2004laaa  aaab  ab.a  ac.a  ad.a
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls a*
+[?2004laaa  aaab  ab.a  ac.a  ad.a
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls *a
+[?2004laaa  ab.a  ac.a  ad.a
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls &&[K[K&&[K[K??ю[K.?
+[?2004lab.a  ac.a  ad.a
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls *aa*
+[?2004laaa  aaab
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ ls ???
+[?2004laaa
+[?2004h]0;huskutop@huskutop: ~/task19[01;32mhuskutop@huskutop[00m:[01;34m~/task19[00m$ св[K[Kcd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -d .*
+[?2004l[0m[01;34m.ansible[0m       [01;34m.cache[0m   .gitconfig  [01;34m.puppetlabs[0m                .wget-hsts
+.bash_history  [01;34m.chef[0m    .lesshst    [01;34m.ssh[0m                       .yakubovich.c.swo
+.bash_logout   [01;34m.config[0m  [01;34m.local[0m      .sudo_as_admin_successful  [00;90m.yakubovich.c.swp[0m
+.bashrc        [01;34m.git[0m     .profile    .viminfo
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls *.txt
+[?2004ldirlist.txt    ls_log.txt     task2yakubovich.txt  users.txt
+file_list.txt  mkdir_log.txt  tetx.txt             wordscount.txt
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls *my*
+[?2004lls: невозможно получить доступ к '*my*': Нет такого файла или каталога
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls my????
+[?2004lls: невозможно получить доступ к 'my????': Нет такого файла или каталога
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls *.{c,f,p}
+[?2004lls: невозможно получить доступ к '*.f': Нет такого файла или каталога
+ls: невозможно получить доступ к '*.p': Нет такого файла или каталога
+ yakubovich.c
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ toucj[Kk[Kh /[K\*
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l'*'                                         mkdir_log
+ [0m[01;34m1[0m                                          mkdir_log.txt
+ [01;34mA[0m                                          [01;34mnginx_cookbook[0m
+ admin.pem                                  [01;34msnap[0m
+ back,                                      [01;34mtask19[0m
+ [01;34mbasket[0m                                     task2yakubovich.txt
+ [01;34mchef-repo[0m                                  tetx.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       timelog2yakubovich
+ chef-server-core_14.14.1-1_amd64.deb.1     users.txt
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     validator.pem
+ chef-workstation_23.7.1042-1_amd64.deb.1  'visitor!'
+ dirlist.txt                                Welcome
+ [01;34mdocs[0m                                       wordscount.txt
+ [01;34mexample9[0m                                   [01;34myakubovich[0m
+ file                                       yakubovich.c
+ file_list.txt                              [01;34mВидео[0m
+ [01;34mflowers[0m                                    [01;34mДокументы[0m
+ install_nginx_ubuntu.yml                   [01;34mЗагрузки[0m
+ install_nginx.yml                          [01;34mИзображения[0m
+ inventory.ini                              [01;34mМузыка[0m
+ [01;34mlabrabota4[0m                                 [01;34mОбщедоступные[0m
+ [01;34mlinux-labs[0m                                [01;34m'Рабочий стол'[0m
+ [01;32mls[0m                                         [01;34mШаблоны[0m
+ ls_log.txt
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm \*
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m1[0m                                          mkdir_log
+ [01;34mA[0m                                          mkdir_log.txt
+ admin.pem                                  [01;34mnginx_cookbook[0m
+ back,                                      [01;34msnap[0m
+ [01;34mbasket[0m                                     [01;34mtask19[0m
+ [01;34mchef-repo[0m                                  task2yakubovich.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       tetx.txt
+ chef-server-core_14.14.1-1_amd64.deb.1     timelog2yakubovich
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     users.txt
+ chef-workstation_23.7.1042-1_amd64.deb.1   validator.pem
+ dirlist.txt                               'visitor!'
+ [01;34mdocs[0m                                       Welcome
+ [01;34mexample9[0m                                   wordscount.txt
+ file                                       [01;34myakubovich[0m
+ file_list.txt                              yakubovich.c
+ [01;34mflowers[0m                                    [01;34mВидео[0m
+ install_nginx_ubuntu.yml                   [01;34mДокументы[0m
+ install_nginx.yml                          [01;34mЗагрузки[0m
+ inventory.ini                              [01;34mИзображения[0m
+ [01;34mlabrabota4[0m                                 [01;34mМузыка[0m
+ [01;34mlinux-labs[0m                                 [01;34mОбщедоступные[0m
+ [01;32mls[0m                                        [01;34m'Рабочий стол'[0m
+ ls_log.txt                                 [01;34mШаблоны[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ touch "fi[K spaces"
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m1[0m                                          mkdir_log
+ [01;34mA[0m                                          mkdir_log.txt
+ admin.pem                                  [01;34mnginx_cookbook[0m
+ back,                                      [01;34msnap[0m
+ [01;34mbasket[0m                                     [01;34mtask19[0m
+ [01;34mchef-repo[0m                                  task2yakubovich.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       tetx.txt
+ chef-server-core_14.14.1-1_amd64.deb.1     timelog2yakubovich
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     users.txt
+ chef-workstation_23.7.1042-1_amd64.deb.1   validator.pem
+ dirlist.txt                               'visitor!'
+ [01;34mdocs[0m                                       Welcome
+ [01;34mexample9[0m                                   wordscount.txt
+ file                                       [01;34myakubovich[0m
+ file_list.txt                              yakubovich.c
+ [01;34mflowers[0m                                    [01;34mВидео[0m
+'f spaces'                                  [01;34mДокументы[0m
+ install_nginx_ubuntu.yml                   [01;34mЗагрузки[0m
+ install_nginx.yml                          [01;34mИзображения[0m
+ inventory.ini                              [01;34mМузыка[0m
+ [01;34mlabrabota4[0m                                 [01;34mОбщедоступные[0m
+ [01;34mlinux-labs[0m                                [01;34m'Рабочий стол'[0m
+ [01;32mls[0m                                         [01;34mШаблоны[0m
+ ls_log.txt
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm "f spaces"
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm "f spaces"[Ktouch " " "  "  [K[K "   "
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l' '                                         ls_log.txt
+'  '                                        mkdir_log
+'   '                                       mkdir_log.txt
+ [0m[01;34m1[0m                                          [01;34mnginx_cookbook[0m
+ [01;34mA[0m                                          [01;34msnap[0m
+ admin.pem                                  [01;34mtask19[0m
+ back,                                      task2yakubovich.txt
+ [01;34mbasket[0m                                     tetx.txt
+ [01;34mchef-repo[0m                                  timelog2yakubovich
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       users.txt
+ chef-server-core_14.14.1-1_amd64.deb.1     validator.pem
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m    'visitor!'
+ chef-workstation_23.7.1042-1_amd64.deb.1   Welcome
+ dirlist.txt                                wordscount.txt
+ [01;34mdocs[0m                                       [01;34myakubovich[0m
+ [01;34mexample9[0m                                   yakubovich.c
+ file                                       [01;34mВидео[0m
+ file_list.txt                              [01;34mДокументы[0m
+ [01;34mflowers[0m                                    [01;34mЗагрузки[0m
+ install_nginx_ubuntu.yml                   [01;34mИзображения[0m
+ install_nginx.yml                          [01;34mМузыка[0m
+ inventory.ini                              [01;34mОбщедоступные[0m
+ [01;34mlabrabota4[0m                                [01;34m'Рабочий стол'[0m
+ [01;34mlinux-labs[0m                                 [01;34mШаблоны[0m
+ [01;32mls[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm " "
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ;[Kls
+[?2004l'  '                                        ls_log.txt
+'   '                                       mkdir_log
+ [0m[01;34m1[0m                                          mkdir_log.txt
+ [01;34mA[0m                                          [01;34mnginx_cookbook[0m
+ admin.pem                                  [01;34msnap[0m
+ back,                                      [01;34mtask19[0m
+ [01;34mbasket[0m                                     task2yakubovich.txt
+ [01;34mchef-repo[0m                                  tetx.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       timelog2yakubovich
+ chef-server-core_14.14.1-1_amd64.deb.1     users.txt
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     validator.pem
+ chef-workstation_23.7.1042-1_amd64.deb.1  'visitor!'
+ dirlist.txt                                Welcome
+ [01;34mdocs[0m                                       wordscount.txt
+ [01;34mexample9[0m                                   [01;34myakubovich[0m
+ file                                       yakubovich.c
+ file_list.txt                              [01;34mВидео[0m
+ [01;34mflowers[0m                                    [01;34mДокументы[0m
+ install_nginx_ubuntu.yml                   [01;34mЗагрузки[0m
+ install_nginx.yml                          [01;34mИзображения[0m
+ inventory.ini                              [01;34mМузыка[0m
+ [01;34mlabrabota4[0m                                 [01;34mОбщедоступные[0m
+ [01;34mlinux-labs[0m                                [01;34m'Рабочий стол'[0m
+ [01;32mls[0m                                         [01;34mШаблоны[0m
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ rm " "[K "*
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m1[0m                                          mkdir_log
+ [01;34mA[0m                                          mkdir_log.txt
+ admin.pem                                  [01;34mnginx_cookbook[0m
+ back,                                      [01;34msnap[0m
+ [01;34mbasket[0m                                     [01;34mtask19[0m
+ [01;34mchef-repo[0m                                  task2yakubovich.txt
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       tetx.txt
+ chef-server-core_14.14.1-1_amd64.deb.1     timelog2yakubovich
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     users.txt
+ chef-workstation_23.7.1042-1_amd64.deb.1   validator.pem
+ dirlist.txt                               'visitor!'
+ [01;34mdocs[0m                                       Welcome
+ [01;34mexample9[0m                                   wordscount.txt
+ file                                       [01;34myakubovich[0m
+ file_list.txt                              yakubovich.c
+ [01;34mflower
