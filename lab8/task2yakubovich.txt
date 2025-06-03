@@ -1,0 +1,42 @@
+Script started on 2025-06-02 09:41:36+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="32"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exitsu studentdo apt install ncal[11P student
+[?2004lПароль: 
+bash: groups: команда не найдена
+Команда 'lesspipe' доступна в следующих местах
+ * /bin/lesspipe
+ * /usr/bin/lesspipe
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+lesspipe: команда не найдена
+Команда 'dircolors' доступна в следующих местах
+ * /bin/dircolors
+ * /usr/bin/dircolors
+Команда не может быть найдена, потому что '/usr/bin:/bin' не включена в переменную окружения  PATH
+dircolors: команда не найдена
+[?2004h]0;student@huskutop: /home/huskutop[01;32mstudent@huskutop[00m:[01;34m/home/huskutop[00m$ cd
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ touch report_{1..3} request_{1..3}
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;31marchive.tar.gz[0m  [01;34mdocs[0m           letter3.txt  order3.txt  report_2  request_1  request_3     [01;34msnap[0m
+[01;31martar3.tar[0m      [01;31mguides.tar.gz[0m  log          report_1    report_3  request_2  request3.txt
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ mkdie[Kr report
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ mv report{[K_{1..2[K3} report/
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ ls re
+[?2004lls: невозможно получить доступ к 're': Нет такого файла или каталога
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ ls report
+[?2004lreport_1  report_2  report_3
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;31marchive.tar.gz[0m  [01;34mdocs[0m           letter3.txt  order3.txt  request_1  request_3     [01;34msnap[0m
+[01;31martar3.tar[0m      [01;31mguides.tar.gz[0m  log          [01;34mreport[0m      request_2  request3.txt
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ rm request_{1..3}
+[?2004l[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;31marchive.tar.gz[0m  [01;31martar3.tar[0m  [01;34mdocs[0m  [01;31mguides.tar.gz[0m  letter3.txt  log  order3.txt  [01;34mreport[0m  request3.txt  [01;34msnap[0m
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ echo "$_ls[K[K[K{[K(ls report)'[K"
+[?2004lreport_1
+report_2
+report_3
+[?2004h]0;student@huskutop: ~[01;32mstudent@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-06-02 09:48:26+03:00 [COMMAND_EXIT_CODE="0"]
