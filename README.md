@@ -24,3 +24,18 @@
 
 [Ссылка на отчёт](https://disk.yandex.by/d/tk8c5T-zNKMN2Q)
 
+## Лабораторная работа №6
+
+[Ссылка на отчёт](https://disk.yandex.by/d/eetMrRphIdPd9w)
+
+## Лабораторная работа №7
+
+[Ссылка на отчёт](https://disk.yandex.by/d/xtRWJiX9dmsyfw)
+
+## Лабораторная работа №8
+
+[Ссылка на отчёт](https://disk.yandex.by/d/JwcJLN_7a49gHg)
+
+## Лабораторная работа №9
+
+[Ссылка на отчёт](https://disk.yandex.by/d/BcpPq9AXdyhuwA)
