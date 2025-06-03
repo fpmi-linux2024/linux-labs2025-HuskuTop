@@ -1,0 +1,74 @@
+Script started on 2025-06-01 20:30:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit[Kexit[2Pcdat output.txt awk -F',' '$3>5 {print $1, $2, $3}' colours.csv > output.txt[A]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat output.txt [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd[Kexit[2Pcdat output.txt d[Kexit[Kcd examples/
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ echo "Book one.
+[?2004l[?2004h> The second book.
+[?2004l[?2004h> The third.
+[?2004l[?2004h> This is book four.
+[?2004l[?2004h> f[KFive.
+[?2004l[?2004h> This is the sixth.
+[?2004l[?2004h> This is book>[K.[K seven.
+[?2004l[?2004h> Eighth and last." > books.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed '/book/ p' books.txt 
+[?2004lBook one.
+The second book.
+The second book.
+The third.
+This is book four.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+This is book seven.
+Eighth and last.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed -n '/book/ p' books.txt 
+[?2004lThe second book.
+This is book four.
+This is book seven.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed -n '2,5 p' books.txt 
+[?2004lThe second book.
+The third.
+This is book four.
+Five.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ echo '2.5[K[K,5 p' > records
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed -n -f records books.txt 
+[?2004lThe second book.
+The third.
+This is book four.
+Five.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ echo "3 a/[K\
+[?2004l[?2004h> My favorite book." > appends
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed -f appends books.txt 
+[?2004lBook one.
+The second book.
+The third.
+My favorite book.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+Eighth and last.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ echo "/This/ i\
+[?2004l[?2004h> SKARBONKA." > insert
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ sed -f insert books.txt 
+[?2004lBook one.
+The second book.
+The third.
+SKARBONKA.
+This is book four.
+Five.
+SKARBONKA.
+This is the sixth.
+SKARBONKA.
+This is book seven.
+Eighth and last.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ seb[Kd -n 's/book/novel/ p' books.txt 
+[?2004lThe second novel.
+This is novel four.
+This is novel seven.
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ cd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-06-01 20:40:49+03:00 [COMMAND_EXIT_CODE="0"]

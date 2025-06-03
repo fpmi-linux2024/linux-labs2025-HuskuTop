@@ -1,0 +1,164 @@
+Script started on 2025-06-01 17:33:15+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir examples
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -la > w[Kexamplep[Ks/log.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awl[Kk "[K'/bash/ {print}' examples/*
+[?2004l-rw-------  1 huskutop huskutop     18438 мая 31 14:46 .bash_history
+-rw-r--r--  1 huskutop huskutop       220 мар 31  2024 .bash_logout
+-rw-r--r--  1 huskutop huskutop      3942 мая 29 21:35 .bashrc
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '/QUIT}[K|SETDATE/' /usr/include/protocols/*
+[?2004l#define	TSP_QUIT		13	/* reject candidature if master is up */
+#define	TSP_SETDATE		22	/* New from date command */
+#define	TSP_SETDATEREQ		23	/* New remote for above */
+  "SLAVEUP", "ELECTION", "ACCEPT", "REFUSE", "CONFLICT", "RESOLVE", "QUIT",
+  "TEST", "SETDATE", "SETDATEREQ", "LOOP" };
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "This is a tesy/[K[Kt. This is the secont test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?2004h> This is the second test.
+[?2004l[?2004h> Thiss[K is the third test.
+[?2004l[?2004h> This is the fourth test."
+[?2004lThis is a test.
+This is the second test.
+This is the third test.
+This is the fourth test.
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "This is a test.
+This is the second test.
+This is the third test.
+This is the fourth test."[A[A[A[K
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "This is a test.
+This is the second test.
+This is the third test.
+This is the fourth test." > E[Kexamples/myfike[K[Kle.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat examples/myfile.txt 
+[?2004lThis is a test.
+This is the second test.
+This is the third test.
+This is the fourth test.
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print $1}' examples/myfile.txt 
+[?2004lThis
+This
+This
+This
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print $1}' examples/myfile.txt [1P[1@3
+[?2004la
+the
+the
+the
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '/foo/ { print toupper($0); }'
+[?2004lThis line contains bar.
+This line contains foo.
+THIS LINE CONTAINS FOO.
+^C
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo '[K"Асташко Иван ПИ 1 6
+[?2004l[?2004h> Бузун Евгк[Kений КБ 19[K 9
+[?2004l[?2004h> Кравченя Леонид ПМ 1 4
+[?2004l[?2004h> Кошкин Владимир ИН 1 7
+[?2004l[?2004h> Липин Фёдор ПИ 2 4
+[?2004l[?2004h> Пенов Николай ПМ 1 5 [K
+[?2004l[?2004h> Яшин Пётр КБ 4 8Э[K" > examples/list_students.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk "[K'{print &[K$1,$2,$5}' examples/list_students.txt 
+[?2004lАсташко Иван 6
+Бузун Евгений 9
+Кравченя Леонид 4
+Кошкин Владимир 7
+Липин Фёдор 4
+Пенов Николай 5
+Яшин Пётр 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '/8/ {print $0}' examples/list_students.txt 
+[?2004lЯшин Пётр КБ 4 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '($5==4)' examples/list_students.txt 
+[?2004lКравченя Леонид ПМ 1 4
+Липин Фёдор ПИ 2 4
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '($3=="КБ")&&($4==1)' examples/list_students.txt 
+[?2004lБузун Евгений КБ 1 9
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print $2.[K, lenght(42[K[K$2)}' examples/list_students.txt 
+[?2004lawk: line 2: function lenght never defined
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print $2, lenght($2)}' examples/list_students.txt [1P[C[1@t[C[1P[1@h
+[?2004lИван 8
+Евгений 14
+Леонид 12
+Владимир 16
+Фёдор 10
+Николай 14
+Пётр 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '(length($1)>5) {priny[Kt}"[K' examples/list_students.txt 
+[?2004lАсташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Фёдор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Пётр КБ 4 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print NR>[K, $0}' examples/list_students.txt 
+[?2004l1 Асташко Иван ПИ 1 6
+2 Бузун Евгений КБ 1 9
+3 Кравченя Леонид ПМ 1 4
+4 Кошкин Владимир ИН 1 7
+5 Липин Фёдор ПИ 2 4
+6 Пенов Николай ПМ 1 5
+7 Яшин Пётр КБ 4 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{print toupper($2)}' examples/list_students.txt 
+[?2004lИван
+Евгений
+Леонид
+Владимир
+Фёдор
+Николай
+Пётр
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '{sum += $5} END {print("SUM=",sum)}' examples/list_students.txt 
+[?2004lSUM= 43
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '($1 ~ /Кравченя.[K/)' examples/list_students.txt 
+[?2004lКравченя Леонид ПМ 1 4
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '($1 ~ /Кравченя/)' examples/list_students.txt [1P[1P[1P[1P[1P[1P[1P[1P[1@{[1P[1@[[1@Л[1@л[1@и[1@п[1@и[1@н[1@]
+[?2004lЛипин Фёдор ПИ 2 4
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ awk '($1 ~ /[Лл]ипин/)' examples/list_students.txt [C[1P[1P[1P[1P[1@"[C[C[C[C[C[C[C[C[1P[1@"[1P[1@![1@=
+[?2004lАсташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Пенов Николай ПМ 1 5
+Яшин Пётр КБ 4 8
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd examples/
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ awk -F'<[K,' '$3.[K>5 {print $1.[K, $2, $3}' colours.csv >  ouy[Ktput.txt
+[?2004lawk: cannot open "colours.csv" (No such file or directory)
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ awk -F',' '$3>5 {print $1, $2, $3}' colours.csv > output.txt[A]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "name,red[K[K[Kcolor,amount
+[?2004l[?2004h> apple,red,4
+[?2004l[?2004h> banana,yellow,6
+[?2004l[?2004h> strawberry,red,3
+[?2004l[?2004h> grape,purple,10
+[?2004l[?2004h> apl[Kple,green,8
+[?2004l[?2004h> plum,purple,2
+[?2004l[?2004h> kiwi,brown,4
+[?2004l[?2004h> potato,brown,9
+[?2004l[?2004h> pineapple,yellow,5" >colours. colours.[C[C[C[C[C[C[C[Ccsv
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ echo "name,color,amount
+apple,red,4
+banana,yellow,6
+strawberry,red,3
+grape,purple,10
+apple,green,8
+plum,purple,2
+kiwi,brown,4
+potato,brown,9
+pineapple,yellow,5" > colours.csv[A[A[A[A[A[A[A[A[Aawk -F',' '$3>5 {print $1, $2, $3}' colours.csv > o[1Putput.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ cat output.txt 
+[?2004lname color amount
+banana yellow 6
+grape purple 10
+apple green 8
+potato brown 9
+[?2004h]0;huskutop@huskutop: ~/examples[01;32mhuskutop@huskutop[00m:[01;34m~/examples[00m$ cf[Kd
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-06-01 18:27:23+03:00 [COMMAND_EXIT_CODE="0"]
