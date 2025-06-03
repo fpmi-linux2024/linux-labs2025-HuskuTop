@@ -1,0 +1,145 @@
+Script started on 2025-05-30 15:45:50+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Welcome, huskutop!
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "This is astring from echo" ?[K> r[Ktetx.tc[Kxt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat tetx.txt 
+[?2004lThis is astring from echo
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls .[K> fike[K[Kle_list.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls > file_list.txt[1P file_list.txt[1Pfile_list.txt[1P file_list.txt[1P file_list.txtc file_list.txta file_list.txtt file_list.txt
+[?2004l1
+admin.pem
+back,
+chef-repo
+chef-server-core_14.14.1-1_amd64.deb
+chef-server-core_14.14.1-1_amd64.deb.1
+chef-workstation_23.7.1042-1_amd64.deb
+chef-workstation_23.7.1042-1_amd64.deb.1
+file_list.txt
+install_nginx_ubuntu.yml
+install_nginx.yml
+inventory.ini
+labrabota4
+linux-labs
+ls
+nginx_cookbook
+snap
+task2yakubovich.txt
+tetx.txt
+timelog2yakubovich
+validator.pem
+visitor!
+Welcome
+yakubovich
+yakubovich.c
+Видео
+Документы
+Загрузки
+Изображения
+Музыка
+Общедоступные
+Рабочий стол
+Шаблоны
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir -v dos[Kcs > mkdie[Kr_log [K.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat mkdir_log.txt 
+[?2004lmkdir: создан каталог 'docs'
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat mkdir_log.txt > mkdir_log.txt [K[K[K[K[K
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat mkdir_log.txt > mkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pmkdir_log[1Pkdir_log
+[?2004lmkdir: создан каталог 'docs'
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ who > users.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat users.txt 
+[?2004lhuskutop seat0        2025-05-29 11:35 (login screen)
+huskutop :0           2025-05-29 11:35 (:0)
+student  tty3         2025-05-29 11:40
+student  tty4         2025-05-29 11:41
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "thegeekstuff" }[K| tr "[K'hegf' HEGF''HEGF'
+[?2004ltHEGEEkstuFF
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "my ID is 73535" | tr -d '0-9'
+[?2004lmy ID is 
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ echo "my ID is 73535" | tr -d '0-9'/'[1P'\'n'[1@c
+[?2004l73535
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ mkdir example9
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ touch example9/{a.[K,b,c,d,e,f,g,h,i,j}.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34m1[0m                                          inventory.ini        'visitor!'
+ admin.pem                                  [01;34mlabrabota4[0m            Welcome
+ back,                                      [01;34mlinux-labs[0m            [01;34myakubovich[0m
+ [01;34mchef-repo[0m                                  [01;32mls[0m                    yakubovich.c
+ [01;31mchef-server-core_14.14.1-1_amd64.deb[0m       mkdir_log             [01;34mВидео[0m
+ chef-server-core_14.14.1-1_amd64.deb.1     mkdir_log.txt         [01;34mДокументы[0m[K
+ [01;31mchef-workstation_23.7.1042-1_amd64.deb[0m     [01;34mnginx_cookbook[0m        [01;34mЗагрузки[0m[K
+ chef-workstation_23.7.1042-1_amd64.deb.1   [01;34msnap[0m                  [01;34mИзображения[0m[K
+ [01;34mdocs[0m                                       task2yakubovich.txt   [01;34mМузыка[0m
+ [01;34mexample9[0m                                   tetx.txt              [01;34mОбщедоступные[0m[K
+ file_list.txt                              timelog2yakubovich   [01;34m'Рабочий стол'[0m[K
+ install_nginx_ubuntu.yml                   users.txt             [01;34mШаблоны[0m
+ install_nginx.yml                          validator.pem
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cp /home/user[K[K[K[Khuskutop/*.txt example9/
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls example9/
+[?2004la.txt  d.txt          f.txt  i.txt          task2yakubovich.txt
+b.txt  e.txt          g.txt  j.txt          tetx.txt
+c.txt  file_list.txt  h.txt  mkdir_log.txt  users.txt
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cd example9/
+[?2004l[?2004h]0;huskutop@huskutop: ~/example9[01;32mhuskutop@huskutop[00m:[01;34m~/example9[00m$ ls */[K.txt | tr 'e' 'E' > ../ls_log.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~/example9[01;32mhuskutop@huskutop[00m:[01;34m~/example9[00m$ cd ..
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat ls_log.txt 
+[?2004la.txt
+b.txt
+c.txt
+d.txt
+E.txt
+filE_list.txt
+f.txt
+g.txt
+h.txt
+i.txt
+j.txt
+mkdir_log.txt
+task2yakubovich.txt
+tEtx.txt
+usErs.txt
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ ls -l | tee wordscount.txt | wc > wordscount.txt
+[?2004l[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ cat wordscount.txt 
+[?2004l     41     363    2924
+xr-x 2 huskutop huskutop      4096 апр 15 12:02 1
+-rw-r--r-- 1 huskutop huskutop      1678 апр  5 16:36 admin.pem
+-rw-r--r-- 1 root     root            23 апр  6 17:31 back,
+drwxrwxr-x 6 huskutop huskutop      4096 апр  5 16:26 chef-repo
+-rw-rw-r-- 1 huskutop huskutop 245545020 апр  5  2022 chef-server-core_14.14.1-1_amd64.deb
+-rw-rw-r-- 1 huskutop huskutop 245545020 апр  5  2022 chef-server-core_14.14.1-1_amd64.deb.1
+-rw-rw-r-- 1 huskutop huskutop 205676132 июл 10  2023 chef-workstation_23.7.1042-1_amd64.deb
+-rw-rw-r-- 1 huskutop huskutop 205676132 июл 10  2023 chef-workstation_23.7.1042-1_amd64.deb.1
+drwxrwxr-x 2 huskutop huskutop      4096 мая 30 15:48 docs
+drwxrwxr-x 2 huskutop huskutop      4096 мая 30 15:54 example9
+-rw-rw-r-- 1 huskutop huskutop       552 мая 30 15:47 file_list.txt
+-rw-r--r-- 1 root     root           817 мая 18 12:06 install_nginx_ubuntu.yml
+-rw-rw-r-- 1 huskutop huskutop       817 апр 21 22:24 install_nginx.yml
+-rw-rw-r-- 1 huskutop huskutop       234 апр 21 22:08 inventory.ini
+drwxrwxr-x 3 huskutop huskutop      4096 апр  8 18:45 labrabota4
+drwxrwxr-x 8 huskutop huskutop      4096 мая 14 18:01 linux-labs
+-rwxr-xr-x 1 huskutop huskutop    142312 апр  5  2024 ls
+-rw-rw-r-- 1 huskutop huskutop       127 мая 30 15:56 ls_log.txt
+-rw-rw-r-- 1 huskutop huskutop        42 мая 30 15:48 mkdir_log
+-rw-rw-r-- 1 huskutop huskutop        42 мая 30 15:48 mkdir_log.txt
+drwxrwxr-x 7 huskutop huskutop      4096 апр 21 19:21 nginx_cookbook
+drwx------ 6 huskutop huskutop      4096 мар  3 08:54 snap
+-rw-rw-r-- 1 huskutop huskutop      4096 мая 30 15:53 task2yakubovich.txt
+-rw-rw-r-- 1 huskutop huskutop        26 мая 30 15:46 tetx.txt
+-rw-rw-r-- 1 huskutop huskutop      4096 мая 30 15:52 timelog2yakubovich
+-rw-rw-r-- 1 huskutop huskutop       176 мая 30 15:49 users.txt
+-rw-r--r-- 1 huskutop huskutop      1678 апр  5 16:35 validator.pem
+-rw-r--r-- 1 root     root            23 апр  6 17:31 visitor!
+-rw-r--r-- 1 root     root            23 апр  6 17:31 Welcome
+-rw-rw-r-- 1 huskutop huskutop         0 мая 30 15:58 wordscount.txt
+drwxrwxr-x 2 huskutop huskutop      4096 апр  8 14:01 yakubovich
+-rw-rw-r-- 1 huskutop huskutop       185 фев 17 14:13 yakubovich.c
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Видео
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Документы
+drwxr-xr-x 2 huskutop huskutop      4096 апр 15 18:11 Загрузки
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Изображения
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Музыка
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Общедоступные
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Рабочий стол
+drwxr-xr-x 2 huskutop huskutop      4096 фев 17 10:11 Шаблоны
+[?2004h]0;huskutop@huskutop: ~[01;32mhuskutop@huskutop[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-05-30 15:59:10+03:00 [COMMAND_EXIT_CODE="0"]
